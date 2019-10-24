@@ -1,0 +1,15 @@
+.gjxx-rw { width: 700px; height: 194px; padding: 44px 61px 44px 467px; -webkit-box-sizing: border-box; box-sizing: border-box; background-repeat: no-repeat; }
+
+.gjxx-rw.gjxx-rw2 { padding: 44px 44px 44px 484px; }
+
+.gjxx-rw.gjxx-rw3 { padding: 44px 35px 44px 491px; }
+
+.gjxx-rw a { display: block; width: 172px; height: 44px; }
+
+.gjxx-rw a.rw-zx { margin-bottom: 18px; }
+
+@media screen and (max-width: 750px) { .gjxx-rw { width: 100%; height: 2.77133rem; padding: 0.58667rem 0.8rem 0.58667rem 6.61333rem; background-size: 100% 100%; }
+  .gjxx-rw.gjxx-rw2 { padding: 0.58667rem 0.58667rem 0.58667rem 6.8rem; }
+  .gjxx-rw.gjxx-rw3 { padding: 0.58667rem 0.46667rem 0.58667rem 6.93333rem; }
+  .gjxx-rw a { width: 100%; height: 0.66667rem; }
+  .gjxx-rw a.rw-zx { margin-bottom: 0.24rem; } }
