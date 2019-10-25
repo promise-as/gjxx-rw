@@ -5,18 +5,12 @@ $browser-default-font-size: 75px !default;
 .gjxx-rw{
   width: 700px;
   height: 194px;
-  padding: 44px 61px 44px 467px;
+  padding: 43px 35px 43px 467px;
   box-sizing: border-box;
   background-repeat: no-repeat;
-  &.gjxx-rw2{
-    padding: 44px 44px 44px 484px;
-  }
-  &.gjxx-rw3{
-    padding: 44px 35px 44px 491px;
-  }
   a{
     display: block;
-    width: 172px;
+    width: 100%;
     height: 44px;
     &.rw-zx{
       margin-bottom: 18px;
@@ -28,16 +22,9 @@ $browser-default-font-size: 75px !default;
   .gjxx-rw{
     width: 100%;
     height: pr(207.85px);
-    padding: pr(44px) pr(60px) pr(44px) pr(496px);
+    padding: pr(43px) pr(35px) pr(43px) pr(467px);
     background-size: 100% 100%;
-    &.gjxx-rw2{
-      padding: pr(44px) pr(44px) pr(44px) pr(510px);
-    }
-    &.gjxx-rw3{
-      padding: pr(44px) pr(35px) pr(44px) pr(520px);
-    }
     a{
-      width: 100%;
       height: pr(50px);
       &.rw-zx{
         margin-bottom: pr(18px);
