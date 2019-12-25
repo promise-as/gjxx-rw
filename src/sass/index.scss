@@ -5,16 +5,13 @@ $browser-default-font-size: 75px !default;
 .gjxx-rw{
   width: 700px;
   height: 194px;
-  padding: 43px 35px 43px 467px;
-  box-sizing: border-box;
   background-repeat: no-repeat;
   a{
     display: block;
     width: 100%;
-    height: 44px;
+    height: 100%;
     &.rw-zx{
-      margin-bottom: 18px;
-      
+      display: none;
     }
   }
 }
@@ -24,11 +21,5 @@ $browser-default-font-size: 75px !default;
     height: pr(207.85px);
     padding: pr(43px) pr(35px) pr(43px) pr(467px);
     background-size: 100% 100%;
-    a{
-      height: pr(50px);
-      &.rw-zx{
-        margin-bottom: pr(18px);
-      }
-    }
   }
 }

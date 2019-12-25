@@ -1,213 +1,108 @@
 ﻿.ms_module a { display: inline-block; *zoom: 1; *display: inline; }
-
 body { margin: 0; font-size: 14px; }
-
 p { margin: 0; }
-
 ul { list-style: none; margin: 0; padding: 0; }
-
 a { cursor: pointer; text-decoration: none; }
-
 a:hover { text-decoration: none; }
-
 img { max-width: 100%; height: auto; }
-
 .grey { width: 100%; background: #eee; }
-
 .ms_module * { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
-
 .ms_module:after { content: ""; display: table; clear: both; }
-
 .ms_module a:hover { text-decoration: underline; color: white; }
-
 .ms_module { width: 100%; margin: 30px auto; position: relative; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
-
 .ms_module ul:after { content: ""; display: table; clear: both; }
-
 .ms_module h3 { font-weight: bold; color: #333; font-size: 16px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
-
 .ms_module h6 { font-size: 20px; margin: 0; font-weight: normal; display: inline-block; }
-
 .ms_module p { color: #333; font-size: 12px; line-height: 1.6 !important; text-indent: 0 !important; }
-
 .ms_module a { display: inline-block; width: 100px; background: #f0532d; color: white; text-align: center; line-height: 30px; font-size: 14px; }
-
 .ms_module.m1 ul { margin-right: -2.7%; }
-
 .ms_module.m1 ul li { width: 22%; float: left; margin-right: 2.7%; margin-bottom: 25px; }
-
 .ms_module.m1 ul li img { display: block; width: 100%; }
-
 .ms_module.m1 ul li h3 { position: relative; line-height: 55px; text-align: center; }
-
 .ms_module.m1 ul li h3:after { content: ""; width: 20px; height: 2px; background: #f0532d; position: absolute; left: 50%; margin-left: -10px; bottom: 10px; }
-
 .ms_module.m1 ul li p { width: 100%; text-align: center; margin: 0 auto; }
-
 .ms_module.m2 ul { margin-right: -1.5%; }
-
 .ms_module.m2 ul li { width: 31.5%; float: left; margin-right: 1.5%; margin-bottom: 25px; background: #eee; padding-bottom: 30px; position: relative; }
-
 .ms_module.m2 ul li img { display: block; width: 100%; }
-
 .ms_module.m2 ul li h3 { position: relative; line-height: 55px; margin-bottom: 5px; text-align: center; }
-
 .ms_module.m2 ul li h3:after { content: ""; width: 20px; height: 2px; background: #f0532d; position: absolute; left: 50%; margin-left: -10px; bottom: 10px; }
-
 .ms_module.m2 ul li p { width: 100%; text-align: center; margin: 0 auto; }
-
 .ms_module.m2 ul li a { position: absolute; left: 50%; margin-left: -50px; bottom: -15px; }
-
 .ms_module.m3 ul li { width: 50%; float: left; margin-bottom: 25px; text-align: center; padding: 10px 10px 20px; border: 1px solid transparent; }
-
 .ms_module.m3 ul li img { display: block; width: 100%; }
-
 .ms_module.m3 ul li h3 { position: relative; line-height: 55px; text-align: center; }
-
 .ms_module.m3 ul li h3:after { content: ""; width: 20px; height: 2px; background: #f0532d; position: absolute; left: 50%; margin-left: -10px; bottom: 10px; }
-
 .ms_module.m3 ul li p { text-align: center; margin: 0 auto; }
-
 .ms_module.m3 ul li a { margin-top: 10px; }
-
 .ms_module.m3 ul li:hover { border-color: #d2d2d2; box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
-
 .ms_module.m4 ul { margin-right: -1.5%; }
-
 .ms_module.m4 ul li { width: 31.5%; float: left; margin-right: 1.5%; margin-bottom: 25px; padding: 10px 10px 20px; border: 1px solid transparent; }
-
 .ms_module.m4 ul li img { display: block; width: 100%; }
-
 .ms_module.m4 ul li h3 { position: relative; line-height: 55px; text-align: center; }
-
 .ms_module.m4 ul li h3:after { content: ""; width: 20px; height: 2px; background: #f0532d; position: absolute; left: 50%; margin-left: -10px; bottom: 10px; }
-
 .ms_module.m4 ul li p { text-align: center; margin: 0 auto; }
-
 .ms_module.m4 ul li:hover { border-color: #d2d2d2; box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
-
 .ms_module.m5 ul li { width: 50%; float: left; margin-bottom: 25px; text-align: center; padding: 10px 10px 20px; border: 1px solid transparent; }
-
 .ms_module.m5 ul li img { display: block; width: 100%; }
-
 .ms_module.m5 ul li h3 { position: relative; line-height: 55px; text-align: center; }
-
 .ms_module.m5 ul li h3:after { content: ""; width: 20px; height: 2px; background: #f0532d; position: absolute; left: 50%; margin-left: -10px; bottom: 10px; }
-
 .ms_module.m5 ul li p { text-align: center; margin: 0 auto; }
-
 .ms_module.m5 ul li:hover { border-color: #d2d2d2; box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); }
-
 .ms_module.m6 ul { margin-right: -1.8%; }
-
 .ms_module.m6 ul li { width: 31.5%; float: left; margin-right: 1.8%; margin-bottom: 25px; }
-
 .ms_module.m6 ul li img { display: block; width: 100%; }
-
 .ms_module.m6 ul li h3 { position: relative; line-height: 35px; margin-bottom: 10px; border-bottom: 2px solid #cbcbcb; }
-
 .ms_module.m6 ul li:hover h3 { border-color: #F0532D; }
-
 .ms_module.m7 ul li { width: 48%; float: left; margin-bottom: 25px; margin: 0 1%; }
-
 .ms_module.m7 ul li img { display: block; width: 100%; }
-
 .ms_module.m7 ul li h3 { position: relative; line-height: 35px; margin-bottom: 10px; border-bottom: 2px solid #cbcbcb; }
-
 .ms_module.m7 ul li:hover h3 { border-color: #F0532D; }
-
 .ms_module.m8 div { width: 31%; float: left; margin: 20px 1%; padding: 0 10px; border: 1px solid #e5e5e5; background: white; padding-bottom: 20px; text-align: center; }
-
 .ms_module.m8 div h3 { line-height: 50px; border-bottom: 1px dotted #a3a3a3; text-align: center; }
-
 .ms_module.m8 div p { margin-top: 15px; line-height: 2; }
-
 .ms_module.m8 div a { width: 150px; line-height: 43px; margin: 20px auto 0; }
-
 .ms_module.m9{text-align:center;}
-
 .ms_module.m9 div { width: 46%; float: none;display:inline-block;vertical-align: top; margin: 20px 1%; padding: 0 20px; border: 1px solid #e5e5e5; background: white; padding-bottom: 20px; text-align: center; }
-
 .ms_module.m9 div h3 { line-height: 50px; border-bottom: 1px dotted #a3a3a3; text-align: center; }
-
 .ms_module.m9 div p { margin-top: 15px; line-height: 2; }
-
 .ms_module.m9 div a { width: 170px; line-height: 43px; margin: 20px auto 0; }
-
 .ms_module .t1 { border-top: 2px solid #8193b2; overflow: hidden; margin-bottom: 30px; }
-
 .ms_module .t1 h6 { position: relative; padding: 0 20px; background: #8193b2; height: 40px; transform: skew(-30deg); top: 3px; left: -14px; }
-
 .ms_module .t1 h6 span { transform: skew(30deg); display: block; line-height: 34px; color: white; font-size: 22px; text-indent: 10px; }
-
 .ms_module .t2 { border-bottom: 2px solid #e6e6e6; margin-bottom: 30px; height: 45px; }
-
 .ms_module .t2 h6 { padding: 0 8px; border-bottom: 2px solid #F0532D; line-height: 43px; height: 45px; }
-
 .ms_module .t3 { height: 40px; position: relative; text-align: center; margin-bottom: 30px; }
-
 .ms_module .t3:after { content: ''; width: 100%; height: 2px; background: #e6e6e6; position: absolute; left: 0; top: 19px; z-index: -1; }
-
 .ms_module .t3 h6 { padding: 0 22px; border: 2px solid #E6E6E6; background: white; height: 40px; line-height: 35px; }
-
 .ms_module .t4 { height: 40px; position: relative; text-align: center; margin-bottom: 30px; }
-
 .ms_module .t4:after { content: ''; width: 100%; height: 2px; background: #e6e6e6; position: absolute; left: 0; top: 19px; z-index: -1; }
-
 .ms_module .t4 h6 { padding: 0 22px; border: 2px solid #E6E6E6; border-top: 0; border-bottom: 0; background: white; height: 30px; line-height: 28px; position: relative; top: 5px; }
-
 .ms_module .t5 { border-bottom: 2px solid #F0532D; margin-bottom: 30px; height: 45px; }
-
 .ms_module .t5 h6 { padding: 0 8px; border-bottom: 2px solid #F0532D; line-height: 43px; height: 45px; color: white; background: #F0532D; position: relative; }
-
 .ms_module .t5 h6:after { content: ''; width: 0; height: 0; border-bottom: 38px solid #cecece; border-right: 15px solid transparent; position: absolute; right: -20px; top: 0; }
-
 .ms_module.m11 { margin-top: 107px; }
-
 .ms_module.m11 ul { margin-right: -3.3%; }
-
 .ms_module.m11 ul li { border: 1px solid #d2d2d2; margin-right: 3.3%; position: relative; width: 30%; float: left; padding: 87px 20px 20px; text-align: center; }
-
 .ms_module.m11 ul li img { width: 154px; height: 154px; position: absolute; display: block; top: -77px; left: 50%; margin-left: -77px; }
-
 .ms_module.m11 ul li p { line-height: 2; }
-
 .ms_module.m11 ul li a { line-height: 30px; margin-top: 10px; }
-
 .ms_module.m12 ul { margin-right: -1.5%; }
-
 .ms_module.m12 ul li { float: left; margin-right: 1.5%; margin-bottom: 10px; width: 31.5%; }
-
 .ms_module.m12 ul li img { display: block; width: 100%; }
-
 .ms_module.m12 ul li p { text-align: center; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; line-height: 42px !important; color: #333; font-size: 14px; }
-
 .ms_module.m13 ul li { width: 50%; margin-bottom: 30px; float: left; }
-
 .ms_module.m13 ul li img { float: left; width: 114px; height: 114px; display: block; margin-right: 20px; }
-
 .ms_module.m13 ul li div { width: 55%; float: left; }
-
 .ms_module.m13 ul li div h3 { font-size: 16px; line-height: 50px; border-bottom: 1px dotted #d2d2d2; }
-
 .ms_module.m13 ul li div p { margin-top: 10px; }
-
 .ms_module.m14 h3 { color: white; text-align: center; background: #323c4b; line-height: 52px; height: 52px; font-size: 18px; }
-
 .ms_module.m14 ul { float: left; width: 50%; }
-
 .ms_module.m14 ul h4 { font-size: 16px; font-weight: bold; color: #333; line-height: 55px; text-align: center; margin-top: 0 !important; }
-
 .ms_module.m14 ul li, .ms_module.m14 ul h4 { height: 55px; border: 1px solid #c4cbd6; border-top: 0; }
-
 .ms_module.m14 ul li .l, .ms_module.m14 ul h4 .l { font-size: 14px; color: #333; width: 65%; line-height: 55px; text-indent: 18px; float: left; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
-
 .ms_module.m14 ul li .r, .ms_module.m14 ul h4 .r { width: 34%; float: right; height: 55px; border-left: 1px solid #c4cbd6; text-align: center; }
-
 .ms_module.m14 ul li .r a, .ms_module.m14 ul h4 .r a { width: 70px; height: 34px; line-height: 34px; position: relative; top: 10.5px; }
-
 .ms_module.m14 ul.l h4, .ms_module.m14 ul.l li { border-right: 0; }
-
 /* 国际学校模块 2019-09-05 hbj */
 /* 招生简章 */
 .recruit .title-module span, .recruit .title-module .icon, .recruit .btn-module a, .recruit .btn-module a.has-before:before, .recruit .courses .detail .detail-title, .hot-organs .title-module span, .hot-organs .title-module .icon, .hot-organs .btn-module a, .hot-organs .btn-module a.has-before:before, .hot-organs .organ .organ-l .praise .icon, .hot-organs .organ .organ-r .r-feature span, .hot-organs .organ .organ-r .detail li:before, .hot-organs .organ .organ-r .detail li span, .hot-organs .organ-btn, .hot-organs .organ-btn:before { display: inline-block; *zoom: 1; *display: inline; }
@@ -258,45 +153,25 @@ img { max-width: 100%; height: auto; }
 .hot-organs .btn-module a.has-before { position: relative; padding-left: 33px; text-align: left; -webkit-box-sizing: border-box; box-sizing: border-box; }
 .hot-organs .btn-module a.has-before:before { content: ''; width: 14px; height: 13px; background: url("https://img.thea.cn/jingjia/public/201909/hbj/gjxx-lcm-pc/images/icon_1.png") no-repeat; position: absolute; top: 0; bottom: 0; left: 17px; margin: auto; }
 .hot-organs .organ { height: 284px; background-color: #ffffff; border-radius: 9px; padding: 4px 0 6px; -webkit-box-sizing: border-box; box-sizing: border-box; margin-bottom: 19px; }
-
 .hot-organs .organ .organ-l { float: left; width: 194px; height: 100%; padding-top: 14px; border-right: 4px solid #f7f7f7; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: center; }
-
 .hot-organs .organ .organ-l .promote { margin-left: -7px; margin-bottom: 24px; width: 164px; height: 45px; background: url("https://img.thea.cn/jingjia/public/201909/hbj/gjxx-lcm-pc/images/icon_2.png") no-repeat; font-size: 14px; line-height: 39px; color: #ffffff; padding-left: 35px; text-align: left; -webkit-box-sizing: border-box; box-sizing: border-box; }
-
 .hot-organs .organ .organ-l .l-title { font-size: 20px; line-height: 21px; color: #444444; }
-
 .hot-organs .organ .organ-l .praise { padding-top: 32px; }
-
 .hot-organs .organ .organ-l .praise .icon { width: 16px; height: 17px; background: url("https://img.thea.cn/jingjia/public/201909/hbj/gjxx-lcm-pc/images/icon_3.png") no-repeat; background-size: 100% 100%; }
-
 .hot-organs .organ .organ-l .praise p { font-size: 14px; line-height: 21px; color: #999999; }
-
 .hot-organs .organ .organ-r { float: left; width: 510px; padding-top: 20px; padding-left: 18px; padding-right: 20px; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: center; }
-
 .hot-organs .organ .organ-r .r-feature { text-align: left; }
-
 .hot-organs .organ .organ-r .r-feature span { width: 100px; height: 33px; line-height: 30px; background-color: #ffffff; border-radius: 15px; border: solid 1px #ff7f00; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 16px; color: #ff7f00; margin-right: 12px; text-align: center; }
-
 .hot-organs .organ .organ-r .detail li { font-size: 14px; line-height: 21px; color: #333666; text-align: left; padding-top: 22px; }
-
 .hot-organs .organ .organ-r .detail li:before { content: ''; width: 7px; height: 7px; border: solid 2px #ff7f00; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 100%; margin-right: 6px; float: left; margin-top: 8px; }
-
 .hot-organs .organ .organ-r .detail li span { float: left; width: 458px; }
-
 .hot-organs .organ .organ-r .btn-module { text-align: left; }
-
 .hot-organs .organ .organ-r .btn-module a { -webkit-box-shadow: inset 0px 8px 21px 6px rgba(255, 244, 229, 0.35); box-shadow: inset 0px 8px 21px 6px rgba(255, 244, 229, 0.35); background-image: none; background-color: #f7f7f7; color: #ff7f00; }
-
 .hot-organs .organ .organ-r .btn-module a .icon { width: 13px; height: 14px; margin-right: 5px; }
-
 .hot-organs .organ .organ-r .btn-module a span { border-bottom: 1px solid #ff7f00; }
-
 .hot-organs .organ .organ-r .btn-module a:first-child { width: 125px; }
-
 .hot-organs .organ .organ-r .btn-module a:first-child:before { left: 12px; background: url("https://img.thea.cn/jingjia/public/201909/hbj/gjxx-lcm-pc/images/icon_4.png") no-repeat; }
-
 .hot-organs .organ .organ-r .btn-module a:nth-of-type(2):before { left: 15px; background: url("https://img.thea.cn/jingjia/public/201909/hbj/gjxx-lcm-pc/images/icon_5.png") no-repeat; }
-
 .hot-organs .organ-btn { width: 208px; height: 44px; line-height: 44px; background-image: linear-gradient(-22deg, #ff7f00 0%, #ff9865 100%); -webkit-box-shadow: 0px 2px 8px 0px rgba(255, 127, 0, 0.3); box-shadow: 0px 2px 8px 0px rgba(255, 127, 0, 0.3); border-radius: 20px; font-size: 16px; color: #ffffff; position: relative; padding-left: 63px; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: left; }
 .hot-organs .organ-btn:before { content: ''; width: 16px; height: 15px; background: url("https://img.thea.cn/jingjia/public/201909/hbj/gjxx-lcm-pc/images/icon_6.png") no-repeat; position: absolute; top: 0; bottom: 0; left: 42px; margin: auto; }
 .hot-organs .pc-hide { display: none; }
@@ -309,9 +184,8 @@ img { max-width: 100%; height: auto; }
 .appoint .appoint-btn { position: absolute; top: 14px; right: 0; width: 114px; height: 32px; line-height: 32px; background-image: linear-gradient(-22deg, #ff7f00 0%, #ff9865 100%); border-radius: 14px 0px 0px 14px; font-size: 14px; color: #ffffff; text-align: center; }
 .appoint .pc-hide { display: none; }
 .appoint .wap-hide { display: block; }
-
-
-@media screen and (max-width: 750px) { html { font-size: 75px; }
+@media screen and (max-width: 750px) { 
+  html { font-size: 75px; }
   body { margin: 0; }
   p, h3, h1, h2, h4, h5 { margin: 0; }
   ul { list-style: none; margin: 0; padding: 0; }
@@ -328,7 +202,7 @@ img { max-width: 100%; height: auto; }
   .ms_module:after { content: ""; display: table; clear: both; }
   .ms_module { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; max-width: 9.2rem; margin: 0.4rem auto; position: relative; }
   .ms_module ul:after { content: ""; display: table; clear: both; }
-.ms_module.m14 h3{color:#fff !important;}
+  .ms_module.m14 h3{color:#fff !important;}
   .ms_module h3 { font-weight: bold; color: #333 !important; font-size: 0.34667rem !important; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
   .ms_module h6 { font-size: 0.26667rem; margin: 0; font-weight: normal; display: inline-block; }
   .ms_module p { color: #333; font-size: 0.26667rem; text-indent: 0 !important; line-height: 1 !important; }
@@ -428,36 +302,23 @@ img { max-width: 100%; height: auto; }
 
 /*模块样式 2018-11-23 ljq*/
 body { background: #fff; font-family: "microsoft yahei"; min-width: 1200px\9; }
-
 .body1 { background-color: #f6f7f9; }
-
 .clearfix:after { content: ""; display: block; clear: both; }
-
 .lq-module.lq-list-1 ul li, .lq-module .learn-more, .lq-module.lq-list-2 ul li, .lq-module#jingjiang-list ul li p:before, .lq-module#jingjiang-list ul li a, .lq-module#list-2-ui ul.ui-list li .text a, .lq-module.lq-list-3 ul li, .lq-module#yuyue-list ul li a, .lq-module.lq-list-5 ul li, .lq-module#xunlian-list ul li a { display: inline-block; *zoom: 1; *display: inline; }
-
 .clearfix { zoom: 1; }
-
 a { text-decoration: none; color: inherit; }
-
 a:hover { text-decoration: none; color: inherit; }
-
 .img > a { display: block; }
-
 li { list-style: none; }
-
 img { max-width: 100%; vertical-align: top; border: none; margin: 0; padding: 0; }
-
 h1, h2, h3, h4, p { margin: 0; padding: 0; *margin-top: 0; }
-
 .lq-module.lq-list-1 ul li .con-box h3, .lq-module#zx .zx-content .text h3, .lq-module#zx .zx-list li, .lq-module#yx-list li .text h3, .lq-module #kc-list li .kc-title h3, .lq-module #kc-list li .kc-title p, .lq-module #kc-list li .kc-text p, .lq-module#jingjiang-list ul li h3, .lq-module#jingjiang-list ul li p, .lq-module#list-2-ui ul.ui-list li .text h3, .lq-module#list-2-ui ul.ui-list li .text p, .lq-module #shizi-list .img p, .lq-module.lq-list-4 ul li .text h3, .lq-module#xiaoxi-list ul li .text p.bottom, .lq-module#mingque-list ul li .right h3, .lq-module#shiting-list ul li .text h3 { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
-
 .lq-module .left { float: left; }
 .lq-module .right { float: right; }
 .lq-module * { box-sizing: content-box; letter-spacing: 0; }
 .lq-module img { padding: 0 !important; }
 .lq-module ul li p { text-indent: 0 !important; }
 .lq-module ul li img { padding: 0 !important; }
-
 .lq-module.lq-list-1 { width: 100%; background-color: #f4f4f4; padding: 40px 0; overflow: hidden; }
 .lq-module.lq-list-1 ul { margin-right: -2.5%; text-align: center; }
 .lq-module.lq-list-1 ul li { width: 21%; margin-right: 2.5%; background-color: #fff; font-size: 14px; text-align: center; }
@@ -466,9 +327,7 @@ h1, h2, h3, h4, p { margin: 0; padding: 0; *margin-top: 0; }
 .lq-module.lq-list-1 ul li .con-box .img img { width: 100%; }
 .lq-module.lq-list-1 ul li .con-box h3 { font-weight: bold; font-size: 16px; margin-top: 6px; }
 .lq-module.lq-list-1 ul li .con-box p { color: #888888; line-height: 1.8; text-align: left; height: 5.5em; overflow: hidden; margin: 6px 0 0 0; padding: 0; font-size: 14px; }
-
 .lq-module .learn-more { margin-top: 6px; width: 80px; height: 26px; background-color: #ef4a1a; border-radius: 13px; line-height: 26px; text-align: center; color: #fff; }
-
 .lq-module#zx { border: solid 1px #dddddd; }
 .lq-module#zx .zx-title { width: 100%; height: 60px; line-height: 60px; background-color: #e9e9e9; }
 .lq-module#zx .zx-title .text { font-size: 18px; background-color: #ef4a1a; width: auto; color: #fff; text-align: center; font-weight: bold; padding: 0 10px; }
@@ -485,7 +344,6 @@ h1, h2, h3, h4, p { margin: 0; padding: 0; *margin-top: 0; }
 .lq-module#zx .zx-list { margin-right: -5%; }
 .lq-module#zx .zx-list li { float: left; width: 45%; margin-right: 5%; font-size: 16px; padding: 16px 0; }
 .lq-module#zx .zx-list li a { color: #333666; }
-
 .lq-module#yx-list { width: 100%; }
 .lq-module#yx-list li { border-bottom: dashed 1px #dddddd; padding: 32px 0; }
 .lq-module#yx-list li .img { float: left; width: 37%; }
@@ -495,7 +353,6 @@ h1, h2, h3, h4, p { margin: 0; padding: 0; *margin-top: 0; }
 .lq-module#yx-list li .text p { color: #888; font-size: 14px; margin: 12px 0 0 0; line-height: 1.7; padding: 0; }
 .lq-module#yx-list li.yx-r .img { float: right; }
 .lq-module#yx-list li.yx-r .text { float: left; }
-
 .lq-module #kc-list li { border: solid 1px #dddddd; box-sizing: border-box; *width: 21.5%; }
 .lq-module #kc-list li .kc-title { padding: 14px; height: 36px; color: #fffefe; text-align: left; }
 .lq-module #kc-list li .kc-title h3 { font-size: 20px; font-weight: bold; line-height: 1; color: #fff; }
@@ -506,17 +363,14 @@ h1, h2, h3, h4, p { margin: 0; padding: 0; *margin-top: 0; }
 .lq-module #kc-list li.kc-li-4 .kc-title { background-color: #e5ae6e; }
 .lq-module #kc-list li .kc-text { padding: 12px; }
 .lq-module #kc-list li .kc-text p { font-size: 14px; color: #888888; line-height: 2; text-align: left; padding: 0; margin: 0; }
-
 .lq-module.lq-list-2 { width: 100%; overflow: hidden; background-color: #f4f4f4; }
 .lq-module.lq-list-2 ul { margin-right: -1.9%; text-align: center; }
 .lq-module.lq-list-2 ul li { width: 30%; margin-right: 1.9%; background-color: #fff; margin-bottom: 18px; text-align: center; }
-
 .lq-module#jingjiang-list ul li .box { padding: 18px 14px; }
 .lq-module#jingjiang-list ul li h3 { color: #ef4a1a; font-size: 20px; border-bottom: 1px solid #ef4a1a; font-weight: bold; padding: 0 6px 11px 6px; line-height: 1; margin-bottom: 10px; text-align: left; }
 .lq-module#jingjiang-list ul li p { font-size: 14px; color: #333; line-height: 2.1; text-align: left; padding: 0; margin: 0; }
 .lq-module#jingjiang-list ul li p:before { content: ''; width: 6px; height: 6px; background-color: #ef4a1a; border-radius: 50%; vertical-align: middle; margin-right: 6px; }
 .lq-module#jingjiang-list ul li a { font-size: 14px; color: #ef4a1a; margin: 6px 10px 0 10px; }
-
 .lq-module#list-2-ui { background-color: #fff; }
 .lq-module#list-2-ui ul.ui-list li { background-color: #f6f6f6; }
 .lq-module#list-2-ui ul.ui-list li .img { width: 100%; height: 0; padding-bottom: 69%; overflow: hidden; }
@@ -526,23 +380,19 @@ h1, h2, h3, h4, p { margin: 0; padding: 0; *margin-top: 0; }
 .lq-module#list-2-ui ul.ui-list li .text p { font-size: 14px; color: #888888; margin: 10px 0 0 0; padding: 0; line-height: 1.5; text-align: center; }
 .lq-module#list-2-ui ul.ui-list li .text p:before { display: none; }
 .lq-module#list-2-ui ul.ui-list li .text a { width: 120px; height: 33px; border: solid 1px #999999; margin-top: 12px; text-align: center; line-height: 33px; font-size: 16px; color: #333333; }
-
 .lq-module.lq-list-3 ul { text-align: center; }
 .lq-module.lq-list-3 ul li { width: 24%; }
 .lq-module.lq-list-3 ul li > div { padding: 11% 7%; }
-
 .lq-module #shizi-list { text-align: center; }
 .lq-module #shizi-list .img img { width: 55%; border-radius: 50%; overflow: hidden; display: inline-block; }
 .lq-module #shizi-list .img p { font-size: 18px; text-align: center; margin: 16px 0 0 0; line-height: normal; padding: 0; }
 .lq-module #shizi-list .shizi-content > p { color: #888; font-size: 14px; margin: 12px 0 0 0; padding: 0; line-height: normal; height: auto; overflow: hidden; }
-
 .lq-module.lq-list-4 ul li { border-bottom: dashed 1px #dddddd; padding: 30px 0; }
 .lq-module.lq-list-4 ul li .img { width: 28%; }
 .lq-module.lq-list-4 ul li .img img { width: 100%; }
 .lq-module.lq-list-4 ul li .text { width: 66.4%; }
 .lq-module.lq-list-4 ul li .text h3 { font-size: 24px; }
 .lq-module.lq-list-4 ul li .text p { font-size: 14px; color: #888; line-height: 1.8; margin: 5px 0 0 0; padding: 0; }
-
 .lq-module#yuyue-list { overflow: hidden; background-color: #fff; }
 .lq-module#yuyue-list ul li .img { position: relative; width: 100%; height: 0; padding-bottom: 71.4%; overflow: hidden; cursor: pointer; }
 .lq-module#yuyue-list ul li .img img { width: 100%; }
@@ -554,7 +404,6 @@ h1, h2, h3, h4, p { margin: 0; padding: 0; *margin-top: 0; }
 .lq-module#yuyue-list ul li .img:hover .text h3 { line-height: 38px; height: 38px; padding: 10px 0 0 0; }
 .lq-module#yuyue-list ul li a { width: 108px; height: 32px; border-radius: 17px; border: solid 1px #fa3030; line-height: 32px; font-size: 16px; color: #fa3030; text-align: center; margin-top: 16px; }
 .lq-module#yuyue-list ul li a:hover { background-color: #fa3030; color: #fff; }
-
 .lq-module#xiaoxi-list { background-color: #fff; }
 .lq-module#xiaoxi-list ul li { position: relative; padding-top: 22px; padding-bottom: 28px; }
 .lq-module#xiaoxi-list ul li .img img { width: 100%; }
@@ -564,27 +413,22 @@ h1, h2, h3, h4, p { margin: 0; padding: 0; *margin-top: 0; }
 .lq-module#xiaoxi-list ul li .text .top p.left { color: #ef4a1a; padding: 0; margin: 0; line-height: normal; font-size: 14px; }
 .lq-module#xiaoxi-list ul li .text .top span.right { color: #888888; padding: 0; margin: 0; line-height: normal; }
 .lq-module#xiaoxi-list ul li .text p.bottom { bottom: 0; text-align: left; margin: 0; line-height: normal; padding: 0; font-size: 14px; }
-
 .lq-module.lq-list-5 { overflow: hidden; }
 .lq-module.lq-list-5 ul { margin-right: -1.2%; text-align: center; }
 .lq-module.lq-list-5 ul li { width: 31%; margin-right: 1.2%; }
-
 .lq-module#mingque-list ul li { margin-bottom: 12px; }
 .lq-module#mingque-list ul li .content { border: solid 1px #dddddd; padding: 16px 10px; background-color: #f8f8f8; }
 .lq-module#mingque-list ul li p.left { font-size: 40px; color: #ef4a1a; font-weight: bold; width: 19%; margin: 0; padding: 0; line-height: normal; }
 .lq-module#mingque-list ul li .right { font-size: 14px; width: 76%; }
 .lq-module#mingque-list ul li .right h3 { font-weight: bold; text-align: left; }
 .lq-module#mingque-list ul li .right p { height: 56px; overflow: hidden; color: #888; margin: 10px 0 0 0; font-size: 14px; line-height: normal; padding: 0; text-align: left; }
-
 .lq-module#shiting-list ul li .img { width: 50%; }
 .lq-module#shiting-list ul li .text { width: 45%; }
 .lq-module#shiting-list ul li .text h3 { font-size: 30px; font-weight: bold; margin-bottom: 16px; }
 .lq-module#shiting-list ul li .text h3 span { color: #45a874; }
 .lq-module#shiting-list ul li .text p { font-size: 16px; color: #333; line-height: 1.9; margin: 0; padding: 0; }
 .lq-module#shiting-list ul li .text a { width: 200px; height: 40px; background-color: #ef4a1a; border-radius: 6px; font-size: 16px; color: #fff; text-align: center; line-height: 40px; display: block; margin-top: 14px; }
-
 .lq-module.lq-list-6 ul li { width: 100%; }
-
 .lq-module#xunlian-list ul li { background: url(https://img.thea.cn/public/platform/thea/201811/ys-zsy/images/pic-15.png) no-repeat center; background-size: 100% 100%; color: #fff; padding: 65px 0; text-align: center; position: relative; }
 .lq-module#xunlian-list ul li .img { position: absolute; width: 100%; height: 100%; top: 0; left: 0; }
 .lq-module#xunlian-list ul li .img img { width: 100%; height: 100%; }
@@ -592,7 +436,6 @@ h1, h2, h3, h4, p { margin: 0; padding: 0; *margin-top: 0; }
 .lq-module#xunlian-list ul li h3 { font-weight: bold; font-size: 36px; color: #fff; }
 .lq-module#xunlian-list ul li p { font-size: 24px; margin: 20px 0 0 0; padding: 0; line-height: normal; color: #fff; }
 .lq-module#xunlian-list ul li a { width: 160px; height: 44px; background-color: #ef4a1a; font-size: 22px; text-align: center; color: #fff; margin-top: 40px; line-height: 44px; }
-
 .lq-module#ceshi-list { padding-left: 27%; overflow: hidden; position: relative; padding-top: 20px; padding-bottom: 68px; }
 .lq-module#ceshi-list > img { position: absolute; left: 0; bottom: 0; width: 19%; }
 .lq-module#ceshi-list ul { float: right; margin-right: -3.4%; width: 100%; text-align: center; }
@@ -723,17 +566,11 @@ h1, h2, h3, h4, p { margin: 0; padding: 0; *margin-top: 0; }
 /*# sourceMappingURL=index.css.map */
 /*模块转化模板2   ljq  2018-11-29*/
 .lq2-module.lq-text-1 .lq-article-title:before, .lq2-module.lq-text-2 .lq-article-title:before, .lq2-module.lq-text-2 .lq-article-title:after, .lq2-module.lq-text-3 .lq-article-title, .lq2-module.lq-text-3 .lq-article-title:before, .lq2-module.lq-text-3 .lq-article-title:after, .lq2-module.lq-list-1 ul li, .lq2-module.lq-list-5 ul li, .lq2-module.lq-list-table .lq-zixun, .lq2-module.lq-list-2 ul li, .lq2-module.lq-list-2 #kc-list-3 li .lc-list p:before, .lq2-module.lq-list-7 ul li, .lq2-module.lq-list-7 #kc-list-4 li .kc-box .text .kc-more-4, .lq2-module.lq-list-3 ul li, .lq2-module.lq-list-3 #shizi-list .shizi-content .shizi-more, .lq2-module.lq-ys-list ul li, .lq2-module.zh-list-2 ul li .text .libao-list p span, .lq2-module.zh-list-2 ul li .text .libao-list p:before, .lq2-module.zh-list-2 ul li .text p.libao-z > i, .lq2-module.zh-list-2 ul li .text .libao-link p, .lq2-module .libao-a, .lq2-module.zh-list-3 ul li .zh-box .text, .lq2-module.zh-list-3 ul li .zh-box .img, .lq2-module.zh-list-3 ul li .zh-box .img img, .lq2-module .learn-more, .lq2-module.lq-form-1 h3:after, .lq2-module.lq-form-1 h3:before, .lq2-module.lq-form-1 form input[type='text'], .lq2-module.lq-form-2 .form-box .img, .lq2-module.lq-form-2 .form-box form, .lq2-module.lq-form-2 .form-box form label.lq-input input, .lq2-module.lq-form-2 .form-box form .form-link .zx-link, .lq2-module.lq-form-2 .form-box form .form-link .lq-submit { display: inline-block; *zoom: 1; *display: inline; }
-
 .lq2-module .lq-article-title span, .lq2-module.lq-list-1 #jg-list .jg-box h3, .lq2-module.lq-list-1 #kc-list-2 li .kc-text h3, .lq2-module.lq-list-2 #kc-list-3 li h3, .lq2-module.lq-list-3 #shizi-list .img p, .lq2-module.lq-ys-list #youshi-list-2 li .ys-box .text p, .lq2-module.zh-list-2 ul li .text .libao-list p span { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
-
 .lq2-module.lq-text-1 .lq-article-title:before, .lq2-module.lq-text-2 .lq-article-title:before, .lq2-module.lq-text-2 .lq-article-title:after, .lq2-module.lq-text-3 .lq-article-title, .lq2-module.lq-text-3 .lq-article-title:before, .lq2-module.lq-text-3 .lq-article-title:after, .lq2-module.lq-list-1 ul li, .lq2-module.lq-list-5 ul li, .lq2-module.lq-list-table .lq-zixun, .lq2-module.lq-list-2 ul li, .lq2-module.lq-list-2 #kc-list-3 li .lc-list p:before, .lq2-module.lq-list-7 ul li, .lq2-module.lq-list-7 #kc-list-4 li .kc-box .text .kc-more-4, .lq2-module.lq-list-3 ul li, .lq2-module.lq-list-3 #shizi-list .shizi-content .shizi-more, .lq2-module.lq-ys-list ul li, .lq2-module.zh-list-2 ul li .text .libao-list p span, .lq2-module.zh-list-2 ul li .text .libao-list p:before, .lq2-module.zh-list-2 ul li .text p.libao-z > i, .lq2-module.zh-list-2 ul li .text .libao-link p, .lq2-module .libao-a, .lq2-module.zh-list-3 ul li .zh-box .text, .lq2-module.zh-list-3 ul li .zh-box .img, .lq2-module.zh-list-3 ul li .zh-box .img img, .lq2-module .learn-more, .lq2-module.lq-form-1 h3:after, .lq2-module.lq-form-1 h3:before, .lq2-module.lq-form-1 form input[type='text'], .lq2-module.lq-form-2 .form-box .img, .lq2-module.lq-form-2 .form-box form, .lq2-module.lq-form-2 .form-box form label.lq-input input, .lq2-module.lq-form-2 .form-box form .form-link .zx-link, .lq2-module.lq-form-2 .form-box form .form-link .lq-submit { display: inline-block; *zoom: 1; *display: inline; }
-
 .img > a { display: block; }
-
 li { list-style: none; }
-
 img { max-width: 100%; vertical-align: top; border: none; margin: 0; padding: 0; }
-
 .lq2-module input[type='text'], .lq2-module input[type='submit'] { border: none; font-family: '微软雅黑'; appearance: none; -moz-appearance: none; -webkit-appearance: none; border: none; }
 .lq2-module input[type='text']::-webkit-input-placeholder, .lq2-module input[type='submit']::-webkit-input-placeholder { color: #999; }
 .lq2-module input[type='text']:-moz-placeholder, .lq2-module input[type='submit']:-moz-placeholder { color: #999; }
@@ -1106,14 +943,12 @@ img { max-width: 100%; vertical-align: top; border: none; margin: 0; padding: 0;
 /*# sourceMappingURL=index.css.map */
 /*模块转化模板3   qlp  2018-12-12*/
 .lq-kh-list li .lq-img, .lq-kh-list li .lq-text, .lq-kh-list li .lq-text:before, .lq-qa-link div, .lq-qa-list li, .lq-qa-list li h3, .lq-jd-list li, .lq-jd-list li h3, .lq-jd-list li h3 span, .lq-jd-list li h3 span i, .lq-st, .lq-zc-list li, .lq-ys-list li, .lq-ys-list li .lq-img, .lq-teacher .lq-img, .lq-teacher .lq-text, .lq-teacher .lq-text p.lq-text-pro:before, .lq-reason-list li, .lq-reason-list li .lq-box .lq-img, .lq-school-list li, .lq-school-list li .lq-box .lq-school-num, .lq-school-list li .lq-box .lq-text { display: inline-block; *zoom: 1; *display: inline; }
-
 .tx-module { zoom: 1; }
 .tx-module:after { clear: both; }
 .tx-module:before, .tx-module:after { content: ""; display: table; }
 .fl{float: left;}
 .fr{float: right;}
 .img > a { display: block; }
-
 li { list-style: none; }
 .qlp-module h4{color: #333;}
 img { max-width: 100%; vertical-align: top; border: none; margin: 0; padding: 0; }
@@ -4460,468 +4295,560 @@ normal; -webkit-box-shadow: 0px 3px 5px 0px rgba(244, 134, 42, 0.4); box-shadow:
 
 /* 2019-10-21 author: hbj 底部留单模块 */
 /* 攻读名校本科 */
-.famous-school {
-  padding: 119px 110px 0 60px;
-  background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/pc-form_1.png") no-repeat;
-  margin-bottom: 10px;
-}
-
-.famous-school .sign-in {
-  width: 100%;
-  padding: 25px 48px 0 40px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.famous-school .sign-in .form-row {
-  font-size: 14px;
-  line-height: 38px;
-  color: #444444;
-  margin-bottom: 13px;
-  padding-left: 17px;
-}
-
-.famous-school .sign-in .form-row:last-child {
-  margin-bottom: 0;
-  padding-left: 0;
-  text-align: center;
-}
-
-.famous-school .sign-in .form-row label {
-  font-weight: bold;
-}
-
-.famous-school .sign-in .form-row input[type="text"], .famous-school .sign-in .form-row select {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
-
-.famous-school .sign-in .form-row input[type="text"]::-webkit-input-placeholder, .famous-school .sign-in .form-row select::-webkit-input-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.famous-school .sign-in .form-row input[type="text"]:-moz-placeholder, .famous-school .sign-in .form-row select:-moz-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.famous-school .sign-in .form-row input[type="text"]::-moz-placeholder, .famous-school .sign-in .form-row select::-moz-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.famous-school .sign-in .form-row input[type="text"]:-ms-input-placeholder, .famous-school .sign-in .form-row select:-ms-input-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.famous-school .sign-in .form-row input, .famous-school .sign-in .form-row select {
-  width: 284px;
-  height: 38px;
-  border: solid 1px #dddddd;
-  outline: none;
-  font-family: '微软雅黑';
-}
-
-.famous-school .sign-in .form-row input {
-  text-indent: 1em;
-}
-
-.famous-school .sign-in .form-row select {
-  padding: 0 1em;
-  background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 93% #ffffff;
-  background-size: 7px 4px;
-}
-
-.famous-school .sign-in .form-row.important {
-  background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_2.png") no-repeat left;
-  background-size: 6px 6px;
-}
-
-.famous-school .sign-in .form-row input[type='submit'] {
-  width: 181px;
-  height: 42px;
-  line-height: 42px;
-  background-image: linear-gradient(135deg, #ffca10 0%, #ef6e28 100%), linear-gradient(#ef6e28, #ef6e28);
-  background-blend-mode: normal,
- normal;
-  border-radius: 6px 6px 0px 0px;
-  border: none;
-  font-size: 16px;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.famous-school .sign-in .form-row .row-consult {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  width: 181px;
-  height: 42px;
-  line-height: 42px;
-  background-image: linear-gradient(135deg, #46c7eb 0%, #3993e9 100%), linear-gradient(#3993e9, #3993e9);
-  background-blend-mode: normal,
- normal;
-  border-radius: 6px 6px 0px 0px;
-  text-align: center;
-  vertical-align: middle;
-  color: #ffffff;
-  margin-left: 20px;
-  font-size: 16px;
-}
-
+.famous-school { padding: 119px 110px 0 60px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/pc-form_1.png") no-repeat; margin-bottom: 10px; }
+.famous-school .sign-in { width: 100%; padding: 25px 48px 0 40px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.famous-school .sign-in .form-row { font-size: 14px; line-height: 38px; color: #444444; margin-bottom: 13px; padding-left: 17px; }
+.famous-school .sign-in .form-row:last-child { margin-bottom: 0; padding-left: 0; text-align: center; }
+.famous-school .sign-in .form-row label { font-weight: bold; }
+.famous-school .sign-in .form-row input[type="text"], .famous-school .sign-in .form-row select { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+.famous-school .sign-in .form-row input[type="text"]::-webkit-input-placeholder, .famous-school .sign-in .form-row select::-webkit-input-placeholder { color: #999; font-size: inherit; }
+.famous-school .sign-in .form-row input[type="text"]:-moz-placeholder, .famous-school .sign-in .form-row select:-moz-placeholder { color: #999; font-size: inherit; }
+.famous-school .sign-in .form-row input[type="text"]::-moz-placeholder, .famous-school .sign-in .form-row select::-moz-placeholder { color: #999; font-size: inherit; }
+.famous-school .sign-in .form-row input[type="text"]:-ms-input-placeholder, .famous-school .sign-in .form-row select:-ms-input-placeholder { color: #999; font-size: inherit; }
+.famous-school .sign-in .form-row input, .famous-school .sign-in .form-row select { width: 284px; height: 38px; border: solid 1px #dddddd; outline: none; font-family: '微软雅黑'; }
+.famous-school .sign-in .form-row input { text-indent: 1em; }
+.famous-school .sign-in .form-row select { padding: 0 1em; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 93% #ffffff; background-size: 7px 4px; }
+.famous-school .sign-in .form-row.important { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_2.png") no-repeat left; background-size: 6px 6px; }
+.famous-school .sign-in .form-row input[type='submit'] { width: 181px; height: 42px; line-height: 42px; background-image: linear-gradient(135deg, #ffca10 0%, #ef6e28 100%), linear-gradient(#ef6e28, #ef6e28); background-blend-mode: normal,
+ normal; border-radius: 6px 6px 0px 0px; border: none; font-size: 16px; color: #ffffff; cursor: pointer; }
+.famous-school .sign-in .form-row .row-consult { display: inline-block; *zoom: 1; *display: inline; width: 181px; height: 42px; line-height: 42px; background-image: linear-gradient(135deg, #46c7eb 0%, #3993e9 100%), linear-gradient(#3993e9, #3993e9); background-blend-mode: normal,
+ normal; border-radius: 6px 6px 0px 0px; text-align: center; vertical-align: middle; color: #ffffff; margin-left: 20px; font-size: 16px; }
 /* 优选自考 */
-.self-study {
-  padding: 20px 20px 20px 260px;
-  background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/pc-form_2.png") no-repeat;
-  margin-bottom: 10px;
-}
-
-.self-study .sign-in {
-  width: 100%;
-  padding: 30px 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0px 0px 24px 0px rgba(210, 87, 20, 0.42);
-          box-shadow: 0px 0px 24px 0px rgba(210, 87, 20, 0.42);
-  border-radius: 6px;
-}
-
-.self-study .sign-in .form-row {
-  font-size: 14px;
-  line-height: 38px;
-  color: #444444;
-  margin-bottom: 23px;
-  padding-left: 16px;
-}
-
-.self-study .sign-in .form-row:last-child {
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.self-study .sign-in .form-row label {
-  font-weight: bold;
-}
-
-.self-study .sign-in .form-row input[type="text"], .self-study .sign-in .form-row select {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
-
-.self-study .sign-in .form-row input[type="text"]::-webkit-input-placeholder, .self-study .sign-in .form-row select::-webkit-input-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.self-study .sign-in .form-row input[type="text"]:-moz-placeholder, .self-study .sign-in .form-row select:-moz-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.self-study .sign-in .form-row input[type="text"]::-moz-placeholder, .self-study .sign-in .form-row select::-moz-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.self-study .sign-in .form-row input[type="text"]:-ms-input-placeholder, .self-study .sign-in .form-row select:-ms-input-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.self-study .sign-in .form-row input, .self-study .sign-in .form-row select {
-  width: 284px;
-  height: 38px;
-  border: solid 1px #dddddd;
-  outline: none;
-  font-family: '微软雅黑';
-}
-
-.self-study .sign-in .form-row input {
-  text-indent: 1em;
-}
-
-.self-study .sign-in .form-row select {
-  padding: 0 1em;
-  background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 93% #ffffff;
-  background-size: 7px 4px;
-}
-
-.self-study .sign-in .form-row.important {
-  background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_2.png") no-repeat left;
-  background-size: 6px 6px;
-}
-
-.self-study .sign-in .form-row input[type='submit'], .self-study .sign-in .form-row .row-consult {
-  width: 181px;
-  height: 42px;
-  line-height: 42px;
-  background-image: linear-gradient(135deg, #ffca10 0%, #ef6e28 100%), linear-gradient(#ef6e28, #ef6e28);
-  background-blend-mode: normal,
- normal;
-  border-radius: 21px;
-  border: none;
-  font-size: 16px;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.self-study .sign-in .form-row .row-consult {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  text-align: center;
-  vertical-align: middle;
-  margin-left: 10px;
-  background-image: linear-gradient(135deg, #46c7eb 0%, #3993e9 100%), linear-gradient(#3993e9, #3993e9);
-  background-blend-mode: normal,
- normal;
-  -webkit-box-shadow: 0px 3px 5px 0px;
-          box-shadow: 0px 3px 5px 0px;
-}
-
+.self-study { padding: 20px 20px 20px 260px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/pc-form_2.png") no-repeat; margin-bottom: 10px; }
+.self-study .sign-in { width: 100%; padding: 30px 20px; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #ffffff; -webkit-box-shadow: 0px 0px 24px 0px rgba(210, 87, 20, 0.42); box-shadow: 0px 0px 24px 0px rgba(210, 87, 20, 0.42); border-radius: 6px; }
+.self-study .sign-in .form-row { font-size: 14px; line-height: 38px; color: #444444; margin-bottom: 23px; padding-left: 16px; }
+.self-study .sign-in .form-row:last-child { margin-bottom: 0; padding-left: 0; }
+.self-study .sign-in .form-row label { font-weight: bold; }
+.self-study .sign-in .form-row input[type="text"], .self-study .sign-in .form-row select { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+.self-study .sign-in .form-row input[type="text"]::-webkit-input-placeholder, .self-study .sign-in .form-row select::-webkit-input-placeholder { color: #999; font-size: inherit; }
+.self-study .sign-in .form-row input[type="text"]:-moz-placeholder, .self-study .sign-in .form-row select:-moz-placeholder { color: #999; font-size: inherit; }
+.self-study .sign-in .form-row input[type="text"]::-moz-placeholder, .self-study .sign-in .form-row select::-moz-placeholder { color: #999; font-size: inherit; }
+.self-study .sign-in .form-row input[type="text"]:-ms-input-placeholder, .self-study .sign-in .form-row select:-ms-input-placeholder { color: #999; font-size: inherit; }
+.self-study .sign-in .form-row input, .self-study .sign-in .form-row select { width: 284px; height: 38px; border: solid 1px #dddddd; outline: none; font-family: '微软雅黑'; }
+.self-study .sign-in .form-row input { text-indent: 1em; }
+.self-study .sign-in .form-row select { padding: 0 1em; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 93% #ffffff; background-size: 7px 4px; }
+.self-study .sign-in .form-row.important { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_2.png") no-repeat left; background-size: 6px 6px; }
+.self-study .sign-in .form-row input[type='submit'], .self-study .sign-in .form-row .row-consult { width: 181px; height: 42px; line-height: 42px; background-image: linear-gradient(135deg, #ffca10 0%, #ef6e28 100%), linear-gradient(#ef6e28, #ef6e28); background-blend-mode: normal,
+ normal; border-radius: 21px; border: none; font-size: 16px; color: #ffffff; cursor: pointer; }
+.self-study .sign-in .form-row .row-consult { display: inline-block; *zoom: 1; *display: inline; text-align: center; vertical-align: middle; margin-left: 10px; background-image: linear-gradient(135deg, #46c7eb 0%, #3993e9 100%), linear-gradient(#3993e9, #3993e9); background-blend-mode: normal,
+ normal; -webkit-box-shadow: 0px 3px 5px 0px; box-shadow: 0px 3px 5px 0px; }
 /* 成人学历 */
-.adult-education {
-  padding: 119px 110px 0 60px;
-  background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/pc-form_3.png") no-repeat;
-}
-
-.adult-education .sign-in {
-  width: 100%;
-  padding: 25px 48px 0 40px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.adult-education .sign-in .form-row {
-  font-size: 14px;
-  line-height: 38px;
-  color: #444444;
-  margin-bottom: 13px;
-  padding-left: 17px;
-}
-
-.adult-education .sign-in .form-row:last-child {
-  margin-bottom: 0;
-  padding-left: 0;
-  text-align: center;
-}
-
-.adult-education .sign-in .form-row label {
-  font-weight: bold;
-}
-
-.adult-education .sign-in .form-row input[type="text"], .adult-education .sign-in .form-row select {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
-
-.adult-education .sign-in .form-row input[type="text"]::-webkit-input-placeholder, .adult-education .sign-in .form-row select::-webkit-input-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.adult-education .sign-in .form-row input[type="text"]:-moz-placeholder, .adult-education .sign-in .form-row select:-moz-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.adult-education .sign-in .form-row input[type="text"]::-moz-placeholder, .adult-education .sign-in .form-row select::-moz-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.adult-education .sign-in .form-row input[type="text"]:-ms-input-placeholder, .adult-education .sign-in .form-row select:-ms-input-placeholder {
-  color: #999;
-  font-size: inherit;
-}
-
-.adult-education .sign-in .form-row input, .adult-education .sign-in .form-row select {
-  width: 284px;
-  height: 38px;
-  border: solid 1px #dddddd;
-  outline: none;
-  font-family: '微软雅黑';
-}
-
-.adult-education .sign-in .form-row input {
-  text-indent: 1em;
-}
-
-.adult-education .sign-in .form-row select {
-  padding: 0 1em;
-  background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 93% #ffffff;
-  background-size: 7px 4px;
-}
-
-.adult-education .sign-in .form-row.important {
-  background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_2.png") no-repeat left;
-  background-size: 6px 6px;
-}
-
-.adult-education .sign-in .form-row input[type='submit'] {
-  width: 181px;
-  height: 42px;
-  line-height: 42px;
-  background-image: linear-gradient(135deg, #ffca10 0%, #ef6e28 100%), linear-gradient(#ef6e28, #ef6e28);
-  background-blend-mode: normal,
- normal;
-  border-radius: 6px 6px 0px 0px;
-  border: none;
-  font-size: 16px;
-  color: #ffffff;
-  cursor: pointer;
-}
-
-.adult-education .sign-in .form-row .row-consult {
-  display: inline-block;
-  *zoom: 1;
-  *display: inline;
-  width: 181px;
-  height: 42px;
-  line-height: 42px;
-  background-image: linear-gradient(135deg, #46c7eb 0%, #3993e9 100%), linear-gradient(#3993e9, #3993e9);
-  background-blend-mode: normal,
- normal;
-  border-radius: 6px 6px 0px 0px;
-  text-align: center;
-  vertical-align: middle;
-  color: #ffffff;
-  margin-left: 20px;
-  font-size: 16px;
-}
-
-@media screen and (max-width: 750px) {
-  /* 表单模块 */
-  .form-lcm {
-    width: 100%;
-  }
+.adult-education { padding: 119px 110px 0 60px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/pc-form_3.png") no-repeat; }
+.adult-education .sign-in { width: 100%; padding: 25px 48px 0 40px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.adult-education .sign-in .form-row { font-size: 14px; line-height: 38px; color: #444444; margin-bottom: 13px; padding-left: 17px; }
+.adult-education .sign-in .form-row:last-child { margin-bottom: 0; padding-left: 0; text-align: center; }
+.adult-education .sign-in .form-row label { font-weight: bold; }
+.adult-education .sign-in .form-row input[type="text"], .adult-education .sign-in .form-row select { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+.adult-education .sign-in .form-row input[type="text"]::-webkit-input-placeholder, .adult-education .sign-in .form-row select::-webkit-input-placeholder { color: #999; font-size: inherit; }
+.adult-education .sign-in .form-row input[type="text"]:-moz-placeholder, .adult-education .sign-in .form-row select:-moz-placeholder { color: #999; font-size: inherit; }
+.adult-education .sign-in .form-row input[type="text"]::-moz-placeholder, .adult-education .sign-in .form-row select::-moz-placeholder { color: #999; font-size: inherit; }
+.adult-education .sign-in .form-row input[type="text"]:-ms-input-placeholder, .adult-education .sign-in .form-row select:-ms-input-placeholder { color: #999; font-size: inherit; }
+.adult-education .sign-in .form-row input, .adult-education .sign-in .form-row select { width: 284px; height: 38px; border: solid 1px #dddddd; outline: none; font-family: '微软雅黑'; }
+.adult-education .sign-in .form-row input { text-indent: 1em; }
+.adult-education .sign-in .form-row select { padding: 0 1em; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 93% #ffffff; background-size: 7px 4px; }
+.adult-education .sign-in .form-row.important { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_2.png") no-repeat left; background-size: 6px 6px; }
+.adult-education .sign-in .form-row input[type='submit'] { width: 181px; height: 42px; line-height: 42px; background-image: linear-gradient(135deg, #ffca10 0%, #ef6e28 100%), linear-gradient(#ef6e28, #ef6e28); background-blend-mode: normal,
+ normal; border-radius: 6px 6px 0px 0px; border: none; font-size: 16px; color: #ffffff; cursor: pointer; }
+.adult-education .sign-in .form-row .row-consult { display: inline-block; *zoom: 1; *display: inline; width: 181px; height: 42px; line-height: 42px; background-image: linear-gradient(135deg, #46c7eb 0%, #3993e9 100%), linear-gradient(#3993e9, #3993e9); background-blend-mode: normal,
+ normal; border-radius: 6px 6px 0px 0px; text-align: center; vertical-align: middle; color: #ffffff; margin-left: 20px; font-size: 16px; }
+@media screen and (max-width: 750px) { /* 表单模块 */
+  .form-lcm { width: 100%; }
   /* 攻读名校本科 */
-  .famous-school {
-    padding: 1.58667rem 0.4rem 0;
-    background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/wap-form_1.png") no-repeat;
-    background-size: 100% 100%;
-  }
-  .famous-school .sign-in {
-    padding: 0.4rem 0 0 0.34667rem;
-  }
-  .famous-school .sign-in .form-row {
-    font-size: 0.34667rem;
-    line-height: 0.69333rem;
-    margin-bottom: 0.17333rem;
-    padding-left: 0.26667rem;
-  }
-  .famous-school .sign-in .form-row input, .famous-school .sign-in .form-row select {
-    width: 4.85333rem;
-    height: 0.69333rem;
-  }
-  .famous-school .sign-in .form-row select {
-    background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 92% #ffffff;
-    background-size: 0.17333rem 0.09333rem;
-  }
-  .famous-school .sign-in .form-row input[type='submit'], .famous-school .sign-in .form-row .row-consult {
-    width: 3.48rem;
-    height: 0.74667rem;
-    line-height: 0.74667rem;
-    font-size: 0.37333rem;
-    border-radius: 0.08rem 0.08rem 0 0;
-  }
+  .famous-school { padding: 1.58667rem 0.4rem 0; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/wap-form_1.png") no-repeat; background-size: 100% 100%; }
+  .famous-school .sign-in { padding: 0.4rem 0 0 0.34667rem; }
+  .famous-school .sign-in .form-row { font-size: 0.34667rem; line-height: 0.69333rem; margin-bottom: 0.17333rem; padding-left: 0.26667rem; }
+  .famous-school .sign-in .form-row input, .famous-school .sign-in .form-row select { width: 4.85333rem; height: 0.69333rem; }
+  .famous-school .sign-in .form-row select { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 92% #ffffff; background-size: 0.17333rem 0.09333rem; }
+  .famous-school .sign-in .form-row input[type='submit'], .famous-school .sign-in .form-row .row-consult { width: 3.48rem; height: 0.74667rem; line-height: 0.74667rem; font-size: 0.37333rem; border-radius: 0.08rem 0.08rem 0 0; }
   /* 优选自考 */
-  .self-study {
-    padding: 0.26667rem 0.26667rem 0.34667rem 3.46667rem;
-    background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/wap-form_2.png") no-repeat;
-    background-size: 100% 100%;
-    position: relative;
-  }
-  .self-study .sign-in {
-    padding: 0.26667rem 0.26667rem 0.66667rem 0.26667rem;
-    -webkit-box-shadow: 0px 0px 0.32rem 0px rgba(210, 87, 20, 0.42);
-            box-shadow: 0px 0px 0.32rem 0px rgba(210, 87, 20, 0.42);
-    border-radius: 0.08rem;
-  }
-  .self-study .sign-in .form-row {
-    font-size: 0.34667rem;
-    line-height: 0.34667rem;
-    margin-bottom: 0.26667rem;
-    padding-left: 0;
-  }
-  .self-study .sign-in .form-row label {
-    margin-bottom: 0.26667rem;
-  }
-  .self-study .sign-in .form-row label.important {
-    padding-right: 0.36rem;
-    background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_2.png") no-repeat right;
-    background-size: 0.12rem 0.12rem;
-  }
-  .self-study .sign-in .form-row input, .self-study .sign-in .form-row select {
-    width: 100%;
-    height: 0.69333rem;
-    line-height: 0.69333rem;
-  }
-  .self-study .sign-in .form-row select {
-    padding: 0 1em;
-    background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 92% #ffffff;
-    background-size: 0.17333rem 0.09333rem;
-  }
-  .self-study .sign-in .form-row.important {
-    background: none;
-  }
-  .self-study .sign-in .form-row input[type='submit'], .self-study .sign-in .form-row .row-consult {
-    width: 3.48rem;
-    height: 0.74667rem;
-    line-height: 0.74667rem;
-    font-size: 0.37333rem;
-    border-radius: 0.08rem 0.08rem 0 0;
-  }
-  .self-study .sign-in .form-row .row-consult {
-    display: inline-block;
-    *zoom: 1;
-    *display: inline;
-    margin-left: 0.26667rem;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .self-study .sign-in .form-row.submit-btn {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-  }
+  .self-study { padding: 0.26667rem 0.26667rem 0.34667rem 3.46667rem; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/wap-form_2.png") no-repeat; background-size: 100% 100%; position: relative; }
+  .self-study .sign-in { padding: 0.26667rem 0.26667rem 0.66667rem 0.26667rem; -webkit-box-shadow: 0px 0px 0.32rem 0px rgba(210, 87, 20, 0.42); box-shadow: 0px 0px 0.32rem 0px rgba(210, 87, 20, 0.42); border-radius: 0.08rem; }
+  .self-study .sign-in .form-row { font-size: 0.34667rem; line-height: 0.34667rem; margin-bottom: 0.26667rem; padding-left: 0; }
+  .self-study .sign-in .form-row label { margin-bottom: 0.26667rem; }
+  .self-study .sign-in .form-row label.important { padding-right: 0.36rem; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_2.png") no-repeat right; background-size: 0.12rem 0.12rem; }
+  .self-study .sign-in .form-row input, .self-study .sign-in .form-row select { width: 100%; height: 0.69333rem; line-height: 0.69333rem; }
+  .self-study .sign-in .form-row select { padding: 0 1em; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 92% #ffffff; background-size: 0.17333rem 0.09333rem; }
+  .self-study .sign-in .form-row.important { background: none; }
+  .self-study .sign-in .form-row input[type='submit'], .self-study .sign-in .form-row .row-consult { width: 3.48rem; height: 0.74667rem; line-height: 0.74667rem; font-size: 0.37333rem; border-radius: 0.08rem 0.08rem 0 0; }
+  .self-study .sign-in .form-row .row-consult { display: inline-block; *zoom: 1; *display: inline; margin-left: 0.26667rem; -webkit-box-shadow: none; box-shadow: none; }
+  .self-study .sign-in .form-row.submit-btn { position: absolute; bottom: 0; left: 0; right: 0; margin: auto; text-align: center; }
   /* 成人学历 */
-  .adult-education {
-    padding: 1.58667rem 0.4rem 0;
-    background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/wap-form_3.png") no-repeat;
-    background-size: 100% 100%;
-  }
-  .adult-education .sign-in {
-    padding: 0.4rem 0 0 0.34667rem;
-  }
-  .adult-education .sign-in .form-row {
-    font-size: 0.34667rem;
-    line-height: 0.69333rem;
-    margin-bottom: 0.17333rem;
-    padding-left: 0.26667rem;
-  }
-  .adult-education .sign-in .form-row input, .adult-education .sign-in .form-row select {
-    width: 4.85333rem;
-    height: 0.69333rem;
-  }
-  .adult-education .sign-in .form-row select {
-    background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 92% #ffffff;
-    background-size: 0.17333rem 0.09333rem;
-  }
-  .adult-education .sign-in .form-row input[type='submit'], .adult-education .sign-in .form-row .row-consult {
-    width: 3.48rem;
-    height: 0.74667rem;
-    line-height: 0.74667rem;
-    font-size: 0.37333rem;
-    border-radius: 0.08rem 0.08rem 0 0;
-  }
+  .adult-education { padding: 1.58667rem 0.4rem 0; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/wap-form_3.png") no-repeat; background-size: 100% 100%; }
+  .adult-education .sign-in { padding: 0.4rem 0 0 0.34667rem; }
+  .adult-education .sign-in .form-row { font-size: 0.34667rem; line-height: 0.69333rem; margin-bottom: 0.17333rem; padding-left: 0.26667rem; }
+  .adult-education .sign-in .form-row input, .adult-education .sign-in .form-row select { width: 4.85333rem; height: 0.69333rem; }
+  .adult-education .sign-in .form-row select { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/form-lcm/images/icon_1.png") no-repeat 92% #ffffff; background-size: 0.17333rem 0.09333rem; }
+  .adult-education .sign-in .form-row input[type='submit'], .adult-education .sign-in .form-row .row-consult { width: 3.48rem; height: 0.74667rem; line-height: 0.74667rem; font-size: 0.37333rem; border-radius: 0.08rem 0.08rem 0 0; } }
+
+/* 国际学校择校展-软文底部 author: hbj 2019-10-25 */
+.gjxx-rw { width: 700px; height: 194px; background-repeat: no-repeat; }
+.gjxx-rw a { display: block; width: 100%; height: 100%; }
+.gjxx-rw a.rw-zx { display: none; }
+@media screen and (max-width: 750px) { 
+  .gjxx-rw { width: 100%; height: 2.77133rem; padding: 0.57333rem 0.46667rem 0.57333rem 6.22667rem; background-size: 100% 100%; } 
 }
+
+
+/* 十五个模块 author: hbj 2019-12-24 */
+.fifteen-wrap { width: 740px; margin: 0 auto; }
+
+.fifteen-listen .listen-consult li::before, .fifteen-stage .stage-item .item-detail li::before, .fifteen-opt .item-r li::before, .fifteen-intro .intro-r li::before, .fifteen-devote .devote-l li::before, .fifteen-btn, .fifteen-title .icon, .fifteen-listen .listen-consult li .txt, .fifteen-listen .listen-consult li .fifteen-btn .icon, .fifteen-apply .sign-in a, .fifteen-stage .stage-item .item-detail li span, .fifteen-job .job-cont .cont-title::before { display: inline-block; *zoom: 1; *display: inline; }
+
+.fifteen-school, .fifteen-handshake .handshake-cont .cont-item, .fifteen-listen, .fifteen-earnest ul, .fifteen-apply .apply-cont, .fifteen-stage, .fifteen-sort ul, .fifteen-opt, .fifteen-intro, .fifteen-devote, .fifteen-process ul, .fifteen-cooperate ul { zoom: 1; }
+
+.fifteen-school:after, .fifteen-handshake .handshake-cont .cont-item:after, .fifteen-listen:after, .fifteen-earnest ul:after, .fifteen-apply .apply-cont:after, .fifteen-stage:after, .fifteen-sort ul:after, .fifteen-opt:after, .fifteen-intro:after, .fifteen-devote:after, .fifteen-process ul:after, .fifteen-cooperate ul:after { clear: both; }
+
+.fifteen-school:before, .fifteen-handshake .handshake-cont .cont-item:before, .fifteen-listen:before, .fifteen-earnest ul:before, .fifteen-apply .apply-cont:before, .fifteen-stage:before, .fifteen-sort ul:before, .fifteen-opt:before, .fifteen-intro:before, .fifteen-devote:before, .fifteen-process ul:before, .fifteen-cooperate ul:before, .fifteen-school:after, .fifteen-handshake .handshake-cont .cont-item:after, .fifteen-listen:after, .fifteen-earnest ul:after, .fifteen-apply .apply-cont:after, .fifteen-stage:after, .fifteen-sort ul:after, .fifteen-opt:after, .fifteen-intro:after, .fifteen-devote:after, .fifteen-process ul:after, .fifteen-cooperate ul:after { content: ""; display: table; }
+
+.fifteen-listen .listen-consult li::before, .fifteen-stage .stage-item .item-detail li::before, .fifteen-opt .item-r li::before, .fifteen-intro .intro-r li::before, .fifteen-devote .devote-l li::before { content: ""; width: 3px; height: 3px; background-color: #919191; vertical-align: middle; margin-right: 10px; }
+
+.fifteen-think .cont-item .item-title, .fifteen-listen .listen-consult li .txt, .fifteen-earnest ul li .earnest-cont .cont-title, .fifteen-opt .item-r li, .fifteen-intro .intro-r li, .fifteen-job .job-cont li, .fifteen-devote .devote-l li { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+
+.fifteen-btn { height: 42px; line-height: 42px; background-image: -webkit-linear-gradient(313deg, #fa8271 0%, #eb4d4c 100%), -webkit-linear-gradient(#dbdbdb, #dbdbdb); background-image: linear-gradient(137deg, #fa8271 0%, #eb4d4c 100%), linear-gradient(#dbdbdb, #dbdbdb); background-blend-mode: normal, normal; -webkit-box-shadow: 0px 3px 6px 0px rgba(235, 77, 76, 0.36); box-shadow: 0px 3px 6px 0px rgba(235, 77, 76, 0.36); border-radius: 21px; font-size: 16px; color: #fff; font-weight: bold; }
+
+.fifteen-title { text-align: center; line-height: 30px; }
+
+.fifteen-title span { font-size: 26px; font-weight: bold; color: #444444; vertical-align: middle; }
+
+.fifteen-title .icon-l { width: 24px; height: 24px; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/icon_1.png) no-repeat; margin-right: -16px; vertical-align: middle; }
+
+.fifteen-title .icon-r { width: 16px; height: 16px; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/icon_2.png) no-repeat; margin-left: -12px; vertical-align: bottom; }
+
+.fifteen-title .subtitle { font-size: 16px; color: #888888; }
+
+.fifteen-school { padding: 20px 0; }
+
+.fifteen-school .school-l { float: left; width: 43%; }
+
+.fifteen-school .school-l img { width: 100%; }
+
+.fifteen-school .school-r { float: right; width: 57%; background-color: #f1eefd; margin-top: 20px; padding: 20px 18px 20px 30px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.fifteen-school .school-r .r-title { font-size: 16px; font-weight: bold; line-height: 33px; color: #444444; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/icon_3.png) no-repeat; margin-bottom: 8px; }
+
+.fifteen-school .school-r .r-intro { font-size: 14px; line-height: 24px; color: #666666; }
+
+.fifteen-school .school-r ul { padding-top: 20px; }
+
+.fifteen-school .school-r li { padding-left: 19px; font-size: 14px; line-height: 24px; color: #666666; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/icon_4.png) no-repeat left; }
+
+.fifteen-school .school-r li .r-subtitle { font-weight: bold; }
+
+.fifteen-school .fifteen-btn { border-radius: 0px 21px 21px 0px; padding: 0 40px; }
+
+.fifteen-handshake { margin-top: 20px; padding: 30px 0 20px; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_1.png) no-repeat top; }
+
+.fifteen-handshake .handshake-head { text-align: center; margin-bottom: 30px; }
+
+.fifteen-handshake .handshake-head li { display: inline-block; margin: 0 8px; padding: 0 30px; font-size: 16px; line-height: 34px; color: #ffffff; border: solid 1px rgba(255, 255, 255, 0.5); border-radius: 17px; cursor: pointer; }
+
+.fifteen-handshake .handshake-head li.cur { background-color: #ffffff; color: #745ae0; font-weight: bold; position: relative; }
+
+.fifteen-handshake .handshake-head li.cur::after { content: ""; width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-top: 6px solid #fff; position: absolute; left: 0; right: 0; bottom: -6px; margin: auto; }
+
+.fifteen-handshake .handshake-cont { margin: 0 20px; padding: 30px 20px 30px 30px; background-color: #ffffff; -webkit-box-shadow: 0px 0px 24px 0px rgba(66, 91, 182, 0.36); box-shadow: 0px 0px 24px 0px rgba(66, 91, 182, 0.36); border-radius: 12px; display: none; }
+
+.fifteen-handshake .handshake-cont.cur { display: block; }
+
+.fifteen-handshake .handshake-cont .cont-item .item-l { float: left; width: 59%; margin-right: 2%; font-size: 14px; }
+
+.fifteen-handshake .handshake-cont .cont-item .item-l .l-title { font-size: 16px; font-weight: bold; line-height: 16px; color: #444444; }
+
+.fifteen-handshake .handshake-cont .cont-item .item-l .l-subtitle { font-weight: bold; line-height: 30px; color: #745ae0; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/icon_4-pc.png) no-repeat left; padding-left: 26px; margin-top: 10px; }
+
+.fifteen-handshake .handshake-cont .cont-item .item-l p { line-height: 22px; color: #666666; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+.fifteen-handshake .handshake-cont .cont-item .item-r { float: right; width: 39%; }
+
+.fifteen-handshake .handshake-cont .cont-item .item-r img { width: 100%; }
+
+.fifteen-handshake .handshake-cont .cont-btn { text-align: center; padding-top: 40px; }
+
+.fifteen-handshake .handshake-cont .fifteen-btn { padding: 0 136px; }
+
+.fifteen-think { margin: 20px 0; }
+
+.fifteen-think .think-cont { height: 404px; margin-bottom: 30px; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_2-pc.png) no-repeat top; position: relative; }
+
+.fifteen-think .cont-item { position: absolute; width: 260px; padding: 10px 16px 16px 20px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.fifteen-think .cont-item .item-title { font-size: 16px; font-weight: bold; line-height: 30px; color: #444444; }
+
+.fifteen-think .cont-item p { font-size: 14px; line-height: 22px; color: #888888; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+.fifteen-think .cont-item:nth-of-type(1) { top: 80px; left: 20px; }
+
+.fifteen-think .cont-item:nth-of-type(2) { top: 80px; right: 20px; }
+
+.fifteen-think .cont-item:nth-of-type(3) { top: 257px; }
+
+.fifteen-think .cont-item:nth-of-type(4) { top: 257px; right: 0; }
+
+.fifteen-think .think-form { background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_3.png) no-repeat top; padding: 20px 0 0; }
+
+.fifteen-think .think-form .form-title { margin-bottom: 20px; font-size: 24px; font-weight: bold; line-height: 24px; color: #ffffff; text-align: center; }
+
+.fifteen-think .think-form .sign-in { padding: 30px 0; background-color: #ffffff; -webkit-box-shadow: 0px 0px 24px 0px rgba(144, 144, 144, 0.36); box-shadow: 0px 0px 24px 0px rgba(144, 144, 144, 0.36); border-radius: 12px; }
+
+.fifteen-think .think-form .sign-in input { width: 244px; height: 42px; line-height: 42px; background-color: #ffffff; border: solid 1px #dddddd; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 14px; text-indent: 1em; color: #888888; margin-left: 18px; font-family: "微软雅黑"; }
+
+.fifteen-think .think-form .sign-in input[type="submit"] { width: 172px; border: none; color: #fff; font-size: 16px; text-indent: 0; cursor: pointer; font-weight: bold; }
+
+.fifteen-listen { padding: 20px 0; }
+
+.fifteen-listen .listen-form { float: left; width: 51%; padding: 20px 0 10px; -webkit-box-sizing: border-box; box-sizing: border-box; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_4.png) no-repeat; background-size: 100% auto; text-align: center; }
+
+.fifteen-listen .listen-form .form-title { font-size: 24px; font-weight: bold; line-height: 24px; color: #ffffff; }
+
+.fifteen-listen .listen-form .form-subtitle { font-size: 14px; line-height: 36px; color: rgba(255, 255, 255, 0.7); margin-bottom: 10px; }
+
+.fifteen-listen .listen-form .sign-in { padding: 0 20px; }
+
+.fifteen-listen .listen-form .sign-in input { width: 100%; height: 42px; line-height: 42px; background-color: #ffffff; border: solid 1px #dddddd; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 14px; text-indent: 1em; color: #888888; font-family: "微软雅黑"; margin-bottom: 20px; }
+
+.fifteen-listen .listen-form .sign-in input[type="submit"] { border: none; color: #fff; font-size: 16px; text-indent: 0; cursor: pointer; font-weight: bold; border-radius: 0; }
+
+.fifteen-listen .listen-consult { float: left; width: 49%; background-color: #f1eefd; border-radius: 12px; margin-top: 30px; padding: 18px 0 18px 30px; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 14px; line-height: 36px; color: #444444; }
+
+.fifteen-listen .listen-consult li .txt { width: 220px; vertical-align: middle; }
+
+.fifteen-listen .listen-consult li .fifteen-btn { width: 74px; height: 24px; line-height: 24px; border-radius: 12px; border: solid 1px #eb4d4c; background: #fff; color: #eb4d4c; font-size: 14px; text-align: center; }
+
+.fifteen-listen .listen-consult li .fifteen-btn .icon { width: 13px; height: 12px; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/icon_5.png) no-repeat; background-size: 100% auto; margin-right: 4px; }
+
+.fifteen-listen .listen-consult li .fifteen-btn:hover { border: none; background-image: -webkit-linear-gradient(313deg, #fa8271 0%, #eb4d4c 100%), -webkit-linear-gradient(#f47c1c, #f47c1c); background-image: linear-gradient(137deg, #fa8271 0%, #eb4d4c 100%), linear-gradient(#f47c1c, #f47c1c); background-blend-mode: normal, normal; -webkit-box-shadow: 0px 3px 6px 0px rgba(235, 77, 76, 0.36); box-shadow: 0px 3px 6px 0px rgba(235, 77, 76, 0.36); border-radius: 12px; color: #fff; }
+
+.fifteen-listen .listen-consult li .fifteen-btn:hover .icon { background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/icon_6.png) no-repeat; background-size: 100% auto; }
+
+.fifteen-earnest { padding: 20px 0; }
+
+.fifteen-earnest ul li { float: left; width: 23.5%; text-align: center; margin-right: 2%; }
+
+.fifteen-earnest ul li .img-wap { display: none; }
+
+.fifteen-earnest ul li .earnest-cont { background-color: #f1eefd; width: 100%; padding: 0 10px 15px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.fifteen-earnest ul li .earnest-cont .cont-title { font-size: 16px; font-weight: bold; line-height: 36px; color: #444444; }
+
+.fifteen-earnest ul li .earnest-cont .txt { font-size: 12px; line-height: 22px; color: #888888; margin-bottom: 10px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; }
+
+.fifteen-earnest ul li .arrows { display: none; width: 18px; height: 18px; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/icon_7.png) no-repeat; background-size: 100% 100%; }
+
+.fifteen-earnest ul li:hover { position: relative; }
+
+.fifteen-earnest ul li:hover::before { content: ""; width: 100%; height: 86px; position: absolute; left: 0; top: 0; background: rgba(0, 0, 0, 0.6); }
+
+.fifteen-earnest ul li:hover .earnest-cont { position: absolute; top: 86px; }
+
+.fifteen-earnest ul li:hover .earnest-cont .txt { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+.fifteen-earnest ul li:hover .arrows { display: inline-block; }
+
+.fifteen-earnest ul li:last-child { margin-right: 0; }
+
+.fifteen-apply { padding: 20px 0; }
+
+.fifteen-apply .apply-cont { margin: 0 10px; padding: 30px 20px; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #f1eefd; border-radius: 12px 12px 0px 0px; }
+
+.fifteen-apply .apply-cont .cont-l { float: left; width: 222px; margin-right: 20px; }
+
+.fifteen-apply .apply-cont .cont-r { float: left; width: 436px; }
+
+.fifteen-apply .apply-cont .cont-r .r-title { font-size: 16px; font-weight: bold; line-height: 36px; color: #444444; }
+
+.fifteen-apply .apply-cont .cont-r p { font-size: 14px; line-height: 24px; color: #666666; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+
+.fifteen-apply .sign-in { height: 82px; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_5.png) no-repeat; margin-top: -8px; padding: 26px 0 16px 150px; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 14px; }
+
+.fifteen-apply .sign-in input { width: 160px; height: 42px; line-height: 42px; background-color: #ffffff; border-radius: 3px; font-family: "微软雅黑"; border: none; text-indent: 1em; -webkit-box-sizing: border-box; box-sizing: border-box; margin-right: 8px; vertical-align: middle; }
+
+.fifteen-apply .sign-in input[type="submit"] { width: 110px; background-color: #f47c1c; text-indent: 0; color: #fff; cursor: pointer; }
+
+.fifteen-apply .sign-in a { width: 110px; height: 42px; line-height: 40px; border-radius: 3px; border: solid 1px rgba(255, 255, 255, 0.55); -webkit-box-sizing: border-box; box-sizing: border-box; vertical-align: middle; text-align: center; color: #fffefe; }
+
+.fifteen-stage { padding: 20px 0; }
+
+.fifteen-stage .stage-item { float: left; width: 25%; }
+
+.fifteen-stage .stage-item .item-title { padding: 15px 0 22px; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 24px; font-weight: bold; line-height: 24px; color: #ffffff; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/stage_1.png) no-repeat; text-align: center; }
+
+.fifteen-stage .stage-item .item-detail { margin-top: -10px; padding: 20px 15px; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #ffffff; -webkit-box-shadow: 0px 5px 27px 0px rgba(147, 147, 147, 0.36); box-shadow: 0px 5px 27px 0px rgba(147, 147, 147, 0.36); border-radius: 12px; position: relative; }
+
+.fifteen-stage .stage-item .item-detail li { font-size: 14px; line-height: 22px; color: #444444; margin-bottom: 10px; }
+
+.fifteen-stage .stage-item .item-detail li::before { float: left; margin-top: 10px; background-color: #f18025; }
+
+.fifteen-stage .stage-item .item-detail li span { width: 140px; }
+
+.fifteen-stage .stage-item .fifteen-btn { width: 145px; text-align: center; position: absolute; bottom: 30px; left: 0; right: 0; margin: 0 auto; }
+
+.fifteen-stage .stage-item:nth-of-type(1) { margin-top: 60px; }
+
+.fifteen-stage .stage-item:nth-of-type(1) .item-detail { height: 212px; }
+
+.fifteen-stage .stage-item:nth-of-type(2) { margin-top: 40px; }
+
+.fifteen-stage .stage-item:nth-of-type(2) .item-title { background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/stage_2.png) no-repeat; }
+
+.fifteen-stage .stage-item:nth-of-type(2) .item-detail { height: 232px; }
+
+.fifteen-stage .stage-item:nth-of-type(2) .item-detail li::before { background-color: #bb56c6; }
+
+.fifteen-stage .stage-item:nth-of-type(3) { margin-top: 20px; }
+
+.fifteen-stage .stage-item:nth-of-type(3) .item-title { background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/stage_3.png) no-repeat; }
+
+.fifteen-stage .stage-item:nth-of-type(3) .item-detail { height: 252px; }
+
+.fifteen-stage .stage-item:nth-of-type(3) .item-detail li::before { background-color: #654bd2; }
+
+.fifteen-stage .stage-item:nth-of-type(4) .item-title { background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/stage_4.png) no-repeat; }
+
+.fifteen-stage .stage-item:nth-of-type(4) .item-detail { height: 272px; }
+
+.fifteen-stage .stage-item:nth-of-type(4) .item-detail li::before { background-color: #eb4d4c; }
+
+.fifteen-sort { padding: 20px 0 0; }
+
+.fifteen-sort li { float: left; width: 23.5%; text-align: center; background-color: #ffffff; -webkit-box-shadow: 0px 0px 18px 0px rgba(121, 95, 227, 0.28); box-shadow: 0px 0px 18px 0px rgba(121, 95, 227, 0.28); border-radius: 12px; margin-right: 2%; margin-bottom: 4%; position: relative; }
+
+.fifteen-sort li .sort-num { width: 32px; height: 32px; line-height: 32px; background-image: -webkit-linear-gradient(315deg, #8269ea 0%, #745ae0 100%), -webkit-linear-gradient(#eeeeee, #eeeeee); background-image: linear-gradient(135deg, #8269ea 0%, #745ae0 100%), linear-gradient(#eeeeee, #eeeeee); background-blend-mode: normal, normal; -webkit-box-shadow: 0px 3px 6px 0px rgba(116, 90, 224, 0.36); box-shadow: 0px 3px 6px 0px rgba(116, 90, 224, 0.36); font-size: 24px; border-radius: 50%; color: #ffffff; font-weight: bold; position: absolute; top: -16px; left: 0; right: 0; margin: 0 auto; }
+
+.fifteen-sort li .sort-txt { font-size: 14px; line-height: 22px; color: #666666; padding: 38px 20px 10px; }
+
+.fifteen-sort li .sort-txt p { overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+.fifteen-sort li:nth-of-type(4n + 4) { margin-right: 0; }
+
+.fifteen-opt { padding: 20px 0 0; }
+
+.fifteen-opt .opt-item { float: left; width: 49%; background-color: #f1eefd; margin-right: 2%; margin-bottom: 2%; padding: 2% 1% 2% 2%; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.fifteen-opt .opt-item:nth-of-type(2n + 2) { margin-right: 0; }
+
+.fifteen-opt .item-l { float: left; width: 118px; margin-right: 20px; }
+
+.fifteen-opt .item-r { float: left; font-size: 14px; line-height: 30px; color: #666666; }
+
+.fifteen-opt .item-r li { width: 190px; }
+
+.fifteen-opt .item-r li::before { background-color: #654bd2; }
+
+.fifteen-intro { padding: 40px 0 20px; margin-top: 20px; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_6.png) no-repeat top left; }
+
+.fifteen-intro .intro-l { float: left; width: 28%; font-size: 14px; line-height: 22px; color: #ffffff; text-align: center; }
+
+.fifteen-intro .intro-l img { width: 102px; border-radius: 50%; }
+
+.fifteen-intro .intro-r { float: left; width: 72%; padding: 20px 30px 30px; -webkit-box-sizing: border-box; box-sizing: border-box; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_7.jpg); -webkit-box-shadow: 0px 17px 18px 0px rgba(145, 145, 145, 0.17); box-shadow: 0px 17px 18px 0px rgba(145, 145, 145, 0.17); border: solid 1px #ebebeb; }
+
+.fifteen-intro .intro-r ul { margin-bottom: 20px; }
+
+.fifteen-intro .intro-r li { font-size: 14px; line-height: 30px; color: #666666; }
+
+.fifteen-intro .intro-r li::before { background-color: #775ee1; }
+
+.fifteen-intro .intro-r .fifteen-btn { width: 196px; display: block; text-align: center; margin: 0 auto; }
+
+.fifteen-job { padding: 20px 0; position: relative; }
+
+.fifteen-job .job-cont { width: 486px; background-color: #ffffff; -webkit-box-shadow: 30px 23px 18px 0px rgba(145, 145, 145, 0.17); box-shadow: 30px 23px 18px 0px rgba(145, 145, 145, 0.17); border-radius: 12px; border: solid 1px #ebebeb; padding: 20px 0; }
+
+.fifteen-job .job-cont .cont-title { font-size: 16px; font-weight: bold; line-height: 30px; color: #444444; }
+
+.fifteen-job .job-cont .cont-title::before { content: ""; width: 3px; height: 25px; background-color: #745ae0; vertical-align: middle; margin-right: 28px; }
+
+.fifteen-job .job-cont ul { padding: 10px 90px 10px 30px; }
+
+.fifteen-job .job-cont li { font-size: 14px; line-height: 30px; color: #666666; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/icon_4.png) no-repeat left; padding-left: 20px; }
+
+.fifteen-job .job-cont li .key { font-weight: bold; }
+
+.fifteen-job .job-cont .fifteen-btn { width: 166px; text-align: center; border-radius: 0px 21px 21px 0px; }
+
+.fifteen-job .job-bg { width: 334px; height: 260px; position: absolute; right: 0; top: 0; bottom: 0; margin: auto; }
+
+.fifteen-job .job-bg img { width: 100%; }
+
+.fifteen-devote { padding: 20px 0; }
+
+.fifteen-devote .devote-l { float: left; width: 58%; font-size: 14px; line-height: 30px; color: #666666; background-color: #ffffff; -webkit-box-shadow: 3px 16px 18px 0px rgba(145, 145, 145, 0.17); box-shadow: 3px 16px 18px 0px rgba(145, 145, 145, 0.17); border-radius: 12px 12px 30px 12px; border: solid 1px #ebebeb; padding: 30px 0 20px 30px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.fifteen-devote .devote-l ul { float: left; width: 48%; margin-right: 2%; }
+
+.fifteen-devote .devote-l .l-title { font-size: 16px; font-weight: bold; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/icon_8.png) no-repeat left; padding-left: 17px; background-size: 8px auto; }
+
+.fifteen-devote .devote-l li::before { background-color: #654bd2; }
+
+.fifteen-devote .devote-r { float: left; width: 42%; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_7.png) no-repeat; background-size: 100% 100%; padding: 10px 20px 20px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.fifteen-devote .devote-r .r-title { font-size: 24px; font-weight: bold; line-height: 30px; color: #ffffff; text-align: center; margin-bottom: 20px; }
+
+.fifteen-devote .devote-r .sign-in { padding: 20px 20px 0; background-color: #ffffff; border-radius: 12px; }
+
+.fifteen-devote .devote-r .sign-in input { width: 100%; height: 42px; line-height: 42px; background-color: #ffffff; border: solid 1px #dddddd; -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 14px; text-indent: 1em; color: #888888; font-family: "微软雅黑"; margin-bottom: 20px; }
+
+.fifteen-devote .devote-r .sign-in input[type="submit"] { border: none; color: #fff; font-size: 16px; text-indent: 0; cursor: pointer; font-weight: bold; }
+
+.fifteen-process { margin: 20px 0; padding-top: 140px; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_8.png) no-repeat top; }
+
+.fifteen-process ul { margin-left: 10px; }
+
+.fifteen-process li { float: left; margin-right: 58px; width: 100px; height: 40px; line-height: 40px; background-image: -webkit-linear-gradient(313deg, #c55bd1 0%, #745ae0 100%), -webkit-linear-gradient(#ffffff, #ffffff); background-image: linear-gradient(137deg, #c55bd1 0%, #745ae0 100%), linear-gradient(#ffffff, #ffffff); background-blend-mode: normal, normal; -webkit-box-shadow: 0px 3px 6px 0px rgba(116, 90, 224, 0.36); box-shadow: 0px 3px 6px 0px rgba(116, 90, 224, 0.36); border-radius: 20px; font-size: 16px; font-weight: bold; color: #ffffff; text-align: center; }
+
+.fifteen-process li:nth-of-type(2) { margin-right: 65px; }
+
+.fifteen-process li:nth-of-type(3) { margin-right: 49px; }
+
+.fifteen-process li:nth-of-type(4) { margin-right: 48px; }
+
+.fifteen-process li:last-child { margin-right: 0; }
+
+.fifteen-cooperate { margin: 20px 0; padding: 30px 0 0 20px; background: #ebe8f7; }
+
+.fifteen-cooperate li { float: left; width: 47%; font-size: 14px; line-height: 32px; color: #888888; text-align: center; margin-right: 3%; margin-bottom: 3%; }
+
+.fifteen-cooperate li img { width: 100%; height: 190px; margin-bottom: 15px; }
+
+.fifteen-cooperate li .cooperate-title { font-weight: bold; font-size: 16px; line-height: 16px; color: #444444; }
+
+@media screen and (max-width: 750px) { .fifteen-wrap { width: 10rem; }
+  .fifteen-school .school-r li { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+  .fifteen-title { line-height: 0.48rem; }
+  .fifteen-title span { font-size: 0.48rem; margin-bottom: 0.13333rem; }
+  .fifteen-title .icon-l { width: 0.32rem; height: 0.32rem; margin-right: -0.21333rem; background-size: 100% 100%; }
+  .fifteen-title .icon-r { width: 0.21333rem; height: 0.21333rem; margin-left: -0.16rem; background-size: 100% 100%; }
+  .fifteen-title .subtitle { font-size: 0.32rem; }
+  .fifteen-btn { height: 0.56rem; line-height: 0.56rem; -webkit-box-shadow: 0px 0.04rem 0.08rem 0px rgba(235, 77, 76, 0.36); box-shadow: 0px 0.04rem 0.08rem 0px rgba(235, 77, 76, 0.36); border-radius: 0.28rem; font-size: 0.32rem; }
+  .fifteen-school { padding: 0.26667rem 0; position: relative; }
+  .fifteen-school .school-l { position: absolute; z-index: 10; }
+  .fifteen-school .school-r { width: 6.84rem; margin-top: 0.26667rem; margin-left: -1.77333rem; padding: 0.4rem 0.24rem 0.26667rem 0.4rem; }
+  .fifteen-school .school-r .r-title { font-size: 0.37333rem; line-height: 0.44rem; margin-bottom: 0.26667rem; margin-left: 1.64rem; background-size: auto 100%; }
+  .fifteen-school .school-r .r-intro { font-size: 0.32rem; line-height: 0.45333rem; margin-left: 1.64rem; }
+  .fifteen-school .school-r ul { padding-top: 0.13333rem; }
+  .fifteen-school .school-r li { padding-left: 0.25333rem; font-size: 0.32rem; line-height: 0.45333rem; background-size: 0.12rem 0.12rem; }
+  .fifteen-school .fifteen-btn { border-radius: 0px 0.28rem 0.28rem 0px; padding: 0 0.4rem; font-size: 0.32rem; position: absolute; top: 54%; z-index: 20; }
+  .fifteen-handshake { padding: 0.4rem 0 0.26667rem; margin: 0.26667rem 0 0; background-size: 100% auto; }
+  .fifteen-handshake .handshake-head { margin-bottom: 0.4rem; }
+  .fifteen-handshake .handshake-head li { width: 2.74667rem; margin: 0 0.10667rem; padding: 0.13333rem 0.26667rem; font-size: 0.37333rem; line-height: 0.45333rem; border-radius: 0.22667rem; }
+  .fifteen-handshake .handshake-head li.cur::after { border-left: 0.13333rem solid transparent; border-right: 0.13333rem solid transparent; border-top: 0.13333rem solid #fff; bottom: -0.13333rem; }
+  .fifteen-handshake .handshake-cont { margin: 0 0.26667rem; padding: 0.4rem 0.26667rem 0.4rem 0.26667rem; -webkit-box-shadow: 0px 0px 0.32rem 0px rgba(66, 91, 182, 0.36); box-shadow: 0px 0px 0.32rem 0px rgba(66, 91, 182, 0.36); border-radius: 0.16rem; }
+  .fifteen-handshake .handshake-cont .cont-item .item-l { width: 48%; font-size: 0.32rem; }
+  .fifteen-handshake .handshake-cont .cont-item .item-l .l-title { font-size: 0.37333rem; line-height: 0.37333rem; }
+  .fifteen-handshake .handshake-cont .cont-item .item-l .l-subtitle { line-height: 0.45333rem; padding-left: 0.34667rem; margin-top: 0.13333rem; background-size: 0.18667rem 0.21333rem; }
+  .fifteen-handshake .handshake-cont .cont-item .item-l p { line-height: 0.45333rem; }
+  .fifteen-handshake .handshake-cont .cont-item .item-r { width: 50%; }
+  .fifteen-handshake .handshake-cont .cont-item .item-r img { width: 100%; }
+  .fifteen-handshake .handshake-cont .cont-btn { padding-top: 0.53333rem; }
+  .fifteen-handshake .handshake-cont .fifteen-btn { padding: 0 1.46667rem; height: 0.74667rem; line-height: 0.74667rem; border-radius: 0.37333rem; font-size: 0.37333rem; }
+  .fifteen-think { margin: 0.26667rem 0; }
+  .fifteen-think .think-cont { height: 5.57333rem; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_2-wap.png) no-repeat top; margin-bottom: 0.33333rem; background-size: 100% auto; }
+  .fifteen-think .cont-item { width: 3.46667rem; padding: 0.21333rem 0.21333rem 0.21333rem 0.26667rem; }
+  .fifteen-think .cont-item .item-title { font-size: 0.32rem; line-height: 0.4rem; }
+  .fifteen-think .cont-item p { font-size: 0.32rem; line-height: 0.45333rem; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .fifteen-think .cont-item:nth-of-type(1) { top: 0.8rem; left: 0.26667rem; }
+  .fifteen-think .cont-item:nth-of-type(2) { top: 0.8rem; right: 0; }
+  .fifteen-think .cont-item:nth-of-type(3) { top: 3.56rem; }
+  .fifteen-think .cont-item:nth-of-type(4) { width: 3.17333rem; top: 3.56rem; right: 0; }
+  .fifteen-think .think-form { padding: 0.26667rem 0 0; background-size: 100% auto; }
+  .fifteen-think .think-form .form-title { margin-bottom: 0.26667rem; font-size: 0.48rem; line-height: 0.48rem; }
+  .fifteen-think .think-form .sign-in { padding: 0.4rem 0.4rem 0; -webkit-box-shadow: 0px 0px 0.32rem 0px rgba(144, 144, 144, 0.36); box-shadow: 0px 0px 0.32rem 0px rgba(144, 144, 144, 0.36); border-radius: 0.16rem; text-align: center; }
+  .fifteen-think .think-form .sign-in input { width: 100%; height: 0.74667rem; line-height: 0.74667rem; font-size: 0.18667rem; margin-left: 0; margin-bottom: 0.26667rem; text-align: center; }
+  .fifteen-think .think-form .sign-in input[type="submit"] { width: 4.42667rem; font-size: 0.37333rem; border-radius: 0.37333rem; }
+  .fifteen-listen { padding: 0.26667rem 0; }
+  .fifteen-listen .listen-form { float: none; width: 100%; padding: 0.4rem 0 0.26667rem; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_4-wap.png) no-repeat; background-size: 100% 100%; }
+  .fifteen-listen .listen-form .form-title { font-size: 0.48rem; line-height: 0.48rem; margin-bottom: 0.13333rem; }
+  .fifteen-listen .listen-form .form-subtitle { font-size: 0.32rem; line-height: 0.48rem; margin-bottom: 0.26667rem; }
+  .fifteen-listen .listen-form .sign-in { padding: 0 0.26667rem; }
+  .fifteen-listen .listen-form .sign-in input { width: 100%; height: 0.74667rem; line-height: 0.74667rem; font-size: 0.34667rem; margin-bottom: 0.26667rem; }
+  .fifteen-listen .listen-form .sign-in input[type="submit"] { font-size: 0.37333rem; margin-top: 0.13333rem; }
+  .fifteen-listen .listen-consult { float: none; width: 100%; border-radius: 0.16rem; margin-top: 0; padding: 0.24rem 0 0.24rem 0.4rem; font-size: 0.34667rem; line-height: 0.61333rem; }
+  .fifteen-listen .listen-consult li::before { width: 0.08rem; height: 0.08rem; margin-right: 0.21333rem; background-color: #eb4d4c; }
+  .fifteen-listen .listen-consult li .txt { width: 6.53333rem; }
+  .fifteen-listen .listen-consult li .fifteen-btn { width: 1.65333rem; height: 0.45333rem; line-height: 0.42667rem; border-radius: 0.22667rem; font-size: 0.32rem; }
+  .fifteen-listen .listen-consult li .fifteen-btn .icon { width: 0.29333rem; height: 0.26667rem; margin-right: 0.08rem; }
+  .fifteen-listen .listen-consult li .fifteen-btn:hover { border: none; -webkit-box-shadow: 0px 0.04rem 0.08rem 0px rgba(235, 77, 76, 0.36); box-shadow: 0px 0.04rem 0.08rem 0px rgba(235, 77, 76, 0.36); border-radius: 0.16rem; }
+  .fifteen-earnest { padding: 0.26667rem 0 0; }
+  .fifteen-earnest ul li { width: 48%; margin-right: 4%; margin-bottom: 4%; }
+  .fifteen-earnest ul li .img { display: none; }
+  .fifteen-earnest ul li .img-wap { display: block; }
+  .fifteen-earnest ul li .earnest-cont { padding: 0.26667rem 0.13333rem 0.2rem; }
+  .fifteen-earnest ul li .earnest-cont .cont-title { font-size: 0.34667rem; line-height: 0.48rem; margin-bottom: 0.13333rem; }
+  .fifteen-earnest ul li .earnest-cont .txt { font-size: 0.32rem; line-height: 0.45333rem; margin-bottom: 0.26667rem; }
+  .fifteen-earnest ul li .arrows { width: 0.45333rem; height: 0.45333rem; }
+  .fifteen-earnest ul li:hover::before { height: 1.44rem; }
+  .fifteen-earnest ul li:hover .earnest-cont { top: 1.44rem; }
+  .fifteen-earnest ul li:nth-of-type(2n + 2) { margin-right: 0; }
+  .fifteen-apply { padding: 0.26667rem 0; }
+  .fifteen-apply .apply-cont { margin: 0 0.13333rem; padding: 0.4rem 0.26667rem 0.26667rem; border-radius: 0.16rem 0.16rem 0px 0px; }
+  .fifteen-apply .apply-cont .cont-l { width: 3.22667rem; margin-right: 0.13333rem; }
+  .fifteen-apply .apply-cont .cont-r { width: 5.01333rem; }
+  .fifteen-apply .apply-cont .cont-r .r-title { font-size: 0.37333rem; line-height: 0.48rem; }
+  .fifteen-apply .apply-cont .cont-r p { font-size: 0.32rem; line-height: 0.45333rem; }
+  .fifteen-apply .sign-in { height: 3.44rem; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_5-wap.png) no-repeat; background-size: 100% 100%; margin-top: -0.10667rem; padding: 0.33333rem 0 0.33333rem 3.14667rem; font-size: 0.18667rem; }
+  .fifteen-apply .sign-in input { width: 5.73333rem; height: 0.74667rem; line-height: 0.74667rem; border-radius: 0.04rem; margin-right: 0.10667rem; margin-bottom: 0.26667rem; }
+  .fifteen-apply .sign-in input[type="submit"] { width: 2.8rem; margin-bottom: 0; }
+  .fifteen-apply .sign-in a { width: 2.8rem; height: 0.74667rem; line-height: 0.74667rem; border-radius: 0.04rem; }
+  .fifteen-stage { padding: 0.26667rem 0 0; }
+  .fifteen-stage .stage-item { width: 100%; float: none; margin-bottom: 0.4rem; }
+  .fifteen-stage .stage-item .item-title { padding: 0.26667rem 0 0.36rem; font-size: 0.48rem; line-height: 0.48rem; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/stage_1-wap.png) no-repeat; background-size: 100% auto; }
+  .fifteen-stage .stage-item .item-detail { margin-top: -0.13333rem; padding: 0.26667rem 0.4rem 0.4rem; -webkit-box-shadow: 0px 0.06667rem 0.36rem 0px rgba(147, 147, 147, 0.36); box-shadow: 0px 0.06667rem 0.36rem 0px rgba(147, 147, 147, 0.36); border-radius: 0.16rem; }
+  .fifteen-stage .stage-item .item-detail li { font-size: 0.34667rem; line-height: 0.48rem; margin-bottom: 0.26667rem; }
+  .fifteen-stage .stage-item .item-detail li::before { float: none; margin-top: 0; }
+  .fifteen-stage .stage-item .item-detail li span { width: auto; }
+  .fifteen-stage .stage-item .fifteen-btn { display: block; width: 3.2rem; text-align: center; position: static; height: 0.74667rem; line-height: 0.74667rem; border-radius: 0.37333rem; font-size: 0.37333rem; }
+  .fifteen-stage .stage-item:nth-of-type(1) { margin-top: 0; }
+  .fifteen-stage .stage-item:nth-of-type(1) .item-detail { height: auto; }
+  .fifteen-stage .stage-item:nth-of-type(2) { margin-top: 0; }
+  .fifteen-stage .stage-item:nth-of-type(2) .item-title { background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/stage_2-wap.png) no-repeat; background-size: 100% auto; }
+  .fifteen-stage .stage-item:nth-of-type(2) .item-detail { height: auto; }
+  .fifteen-stage .stage-item:nth-of-type(3) { margin-top: 0; }
+  .fifteen-stage .stage-item:nth-of-type(3) .item-title { background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/stage_3-wap.png) no-repeat; background-size: 100% auto; }
+  .fifteen-stage .stage-item:nth-of-type(3) .item-detail { height: auto; }
+  .fifteen-stage .stage-item:nth-of-type(4) .item-title { background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/stage_4-wap.png) no-repeat; background-size: 100% auto; }
+  .fifteen-stage .stage-item:nth-of-type(4) .item-detail { height: auto; }
+  .fifteen-sort { padding: 0.26667rem 0 0; }
+  .fifteen-sort li { width: 31%; -webkit-box-shadow: 0px 0px 0.24rem 0px rgba(121, 95, 227, 0.28); box-shadow: 0px 0px 0.24rem 0px rgba(121, 95, 227, 0.28); border-radius: 0.16rem; margin-right: 3%; }
+  .fifteen-sort li .sort-num { width: 0.56rem; height: 0.56rem; line-height: 0.56rem; -webkit-box-shadow: 0px 0.04rem 0.08rem 0px rgba(116, 90, 224, 0.36); box-shadow: 0px 0.04rem 0.08rem 0px rgba(116, 90, 224, 0.36); font-size: 0.4rem; top: -0.28rem; }
+  .fifteen-sort li .sort-txt { font-size: 0.34667rem; line-height: 0.48rem; padding: 0.61333rem 0.26667rem 0.26667rem; }
+  .fifteen-sort li:nth-of-type(4n + 4) { margin-right: 3%; }
+  .fifteen-sort li:nth-of-type(3n + 3) { margin-right: 0; }
+  .fifteen-opt { padding: 0.26667rem 0 0; }
+  .fifteen-opt .opt-item { width: 100%; padding: 0.4rem 0.26667rem; margin-right: 0; margin-bottom: 0.26667rem; }
+  .fifteen-opt .item-l { width: 2.26667rem; margin-right: 0.26667rem; }
+  .fifteen-opt .item-r { font-size: 0.32rem; line-height: 0.56rem; }
+  .fifteen-opt .item-r li { width: 5.86667rem; }
+  .fifteen-intro { margin: 0.26667rem 0 0; padding: 0.26667rem 0; background-size: 8.13333rem auto; }
+  .fifteen-intro .intro-l { font-size: 0.34667rem; line-height: 0.45333rem; }
+  .fifteen-intro .intro-l img { width: 1.36rem; }
+  .fifteen-intro .intro-r { padding: 0.26667rem 0.4rem 0.4rem; -webkit-box-shadow: 0px 0.22667rem 0.24rem 0px rgba(145, 145, 145, 0.17); box-shadow: 0px 0.22667rem 0.24rem 0px rgba(145, 145, 145, 0.17); }
+  .fifteen-intro .intro-r ul { margin-bottom: 0.26667rem; }
+  .fifteen-intro .intro-r li { font-size: 0.32rem; line-height: 0.56rem; }
+  .fifteen-intro .intro-r .fifteen-btn { width: 3.14667rem; height: 0.74667rem; line-height: 0.74667rem; border-radius: 0.37333rem; }
+  .fifteen-job { padding: 0.26667rem 0; }
+  .fifteen-job .job-cont { width: 7.28rem; -webkit-box-shadow: 0.4rem 0.30667rem 0.24rem 0px rgba(145, 145, 145, 0.17); box-shadow: 0.4rem 0.30667rem 0.24rem 0px rgba(145, 145, 145, 0.17); border-radius: 0.16rem; padding: 0.26667rem 0; }
+  .fifteen-job .job-cont .cont-title { font-size: 0.37333rem; line-height: 0.4rem; }
+  .fifteen-job .job-cont .cont-title::before { width: 0.04rem; height: 0.4rem; margin-right: 0.37333rem; }
+  .fifteen-job .job-cont ul { padding: 0.13333rem 2rem 0.26667rem 0.4rem; }
+  .fifteen-job .job-cont li { font-size: 0.32rem; line-height: 0.4rem; padding-left: 0.32rem; margin-bottom: 0.13333rem; background-size: 0.13333rem 0.13333rem; }
+  .fifteen-job .job-cont .fifteen-btn { width: 2.21333rem; border-radius: 0px 0.28rem 0.28rem 0px; }
+  .fifteen-job .job-bg { width: 4.08rem; height: 3.46667rem; line-height: 3.46667rem; }
+  .fifteen-devote { padding: 0.26667rem 0; }
+  .fifteen-devote .devote-l { width: 100%; font-size: 0.32rem; line-height: 0.56rem; -webkit-box-shadow: 0.04rem 0.21333rem 0.24rem 0px rgba(145, 145, 145, 0.17); box-shadow: 0.04rem 0.21333rem 0.24rem 0px rgba(145, 145, 145, 0.17); border-radius: 0.16rem 0.16rem 0.4rem 0.16rem; padding: 0.4rem 0 0.26667rem 0.4rem; }
+  .fifteen-devote .devote-l .l-title { font-size: 0.34667rem; line-height: 0.4rem; padding-left: 0.49333rem; background-size: 0.21333rem auto; margin-bottom: 0.26667rem; }
+  .fifteen-devote .devote-r { width: 100%; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_7-wap.png) no-repeat; background-size: 100% 100%; padding: 0.26667rem 0.26667rem 0.26667rem; }
+  .fifteen-devote .devote-r .r-title { font-size: 0.48rem; line-height: 0.48rem; margin-bottom: 0.26667rem; }
+  .fifteen-devote .devote-r .sign-in { padding: 0.26667rem 0.26667rem 0; border-radius: 0.16rem; }
+  .fifteen-devote .devote-r .sign-in input { width: 100%; height: 0.74667rem; line-height: 0.74667rem; font-size: 0.34667rem; text-indent: 1em; color: #888888; font-family: "微软雅黑"; margin-bottom: 0.26667rem; }
+  .fifteen-devote .devote-r .sign-in input[type="submit"] { border: none; font-size: 0.37333rem; border-radius: 0.37333rem; }
+  .fifteen-process { margin: 0.26667rem 0; padding-top: 1.86667rem; background: url(https://img.thea.cn/public/platform/thea/201912/hbj/fifteen-lcm/images/bg_8-wap.png) no-repeat top; background-size: 100% auto; }
+  .fifteen-process ul { width: 100%; margin-left: 0; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+  .fifteen-process ul::before, .fifteen-process ul::after { display: none; }
+  .fifteen-process li { margin-right: 0.21333rem; width: 1.33333rem; height: 0.53333rem; line-height: 0.53333rem; -webkit-box-shadow: 0px 0.04rem 0.08rem 0px rgba(116, 90, 224, 0.36); box-shadow: 0px 0.04rem 0.08rem 0px rgba(116, 90, 224, 0.36); border-radius: 0.26667rem; font-size: 0.21333rem; }
+  .fifteen-process li:nth-of-type(2) { margin-right: 0.13333rem; }
+  .fifteen-process li:nth-of-type(3) { margin-right: 0; }
+  .fifteen-process li:nth-of-type(4) { margin-right: 0; }
+  .fifteen-cooperate { margin: 0.26667rem 0; padding: 0.4rem 0 0 0.26667rem; }
+  .fifteen-cooperate li { font-size: 0.32rem; line-height: 0.48rem; }
+  .fifteen-cooperate li img { height: 2.53333rem; margin-bottom: 0.2rem; }
+  .fifteen-cooperate li .cooperate-title { font-size: 0.37333rem; line-height: 0.37333rem; } }
